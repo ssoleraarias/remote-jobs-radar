@@ -1,0 +1,64 @@
+name: Actualizar vacantes y publicar el sitio
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # todos los dias 10:17 UTC (07:17 en Buenos Aires)
+  workflow_dispatch:         # boton "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write            # para guardar data/jobs.json en el repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bajar vacantes
+        run: python scripts/fetch_jobs.py
+
+      - name: Guardar data/jobs.json en el repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json data/employer_excluded.json
+          git diff --cached --quiet || git commit -m "Vacantes $(date -u +%F)"
+          git push
+
+      - name: Armar el sitio
+        run: |
+          mkdir -p _site/data
+          cp site/index.html _site/index.html
+          cp data/jobs.json _site/data/jobs.json
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      # Si alguna fuente no respondio, este paso falla y GitHub te manda un correo.
+      # El sitio igual se publica con lo que si se pudo bajar.
+      - name: Avisar si una fuente fallo
+        run: python scripts/fetch_jobs.py --check
+
+  deploy:
+    needs: build
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
