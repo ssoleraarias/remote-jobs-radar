@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T15:37:33Z",
+ "generated_at": "2026-10-21T16:49:48Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -134,13 +134,6 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8250483",
    "location": "US Remote; Canada",
    "reason": "Ubicación fuera de LATAM: US Remote; Canada"
-  },
-  {
-   "company": "Stripe",
-   "title": "People Operations Specialist, HR Compliance",
-   "url": "https://stripe.com/jobs/search?gh_jid=8189015",
-   "location": "Chicago, US-Remote",
-   "reason": "Ubicación fuera de LATAM: Chicago, US-Remote"
   },
   {
    "company": "Stripe",
