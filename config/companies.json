@@ -1,0 +1,22 @@
+{
+  "_ayuda": "Empresas con sistema de vacantes publico. 'ats' puede ser greenhouse, lever, ashby o smartrecruiters; 'slug' es el nombre en la URL de su tablero. Para agregar una empresa: copia una linea y cambia name, ats y slug.",
+  "companies": [
+    {"name": "ActiveCampaign", "ats": "lever", "slug": "activecampaign"},
+    {"name": "Airtable", "ats": "greenhouse", "slug": "airtable"},
+    {"name": "Apollo", "ats": "greenhouse", "slug": "apolloio"},
+    {"name": "Brevo", "ats": "lever", "slug": "brevo"},
+    {"name": "Calendly", "ats": "greenhouse", "slug": "calendly"},
+    {"name": "ClickUp", "ats": "ashby", "slug": "clickup"},
+    {"name": "Discord", "ats": "greenhouse", "slug": "discord"},
+    {"name": "Help Scout", "ats": "ashby", "slug": "helpscout"},
+    {"name": "Jobber", "ats": "ashby", "slug": "jobber"},
+    {"name": "Kit", "ats": "ashby", "slug": "kit"},
+    {"name": "Miro", "ats": "ashby", "slug": "miro"},
+    {"name": "PandaDoc", "ats": "greenhouse", "slug": "pandadoc"},
+    {"name": "Patreon", "ats": "ashby", "slug": "patreon"},
+    {"name": "Pipedrive", "ats": "lever", "slug": "pipedrive"},
+    {"name": "ServiceTitan", "ats": "smartrecruiters", "slug": "servicetitan"},
+    {"name": "Stripe", "ats": "greenhouse", "slug": "stripe"},
+    {"name": "SurveyMonkey", "ats": "ashby", "slug": "surveymonkey"}
+  ]
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Radar de trabajo remoto para LATAM</title>
+<meta name="description" content="Vacantes remotas de creatividad, tecnología, operaciones, clientes, ventas y administración abiertas a Latinoamérica.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F1F3EE;
+    --panel: #FAFBF8;
+    --ink: #1B2733;
+    --muted: #55626D;
+    --line: #CBD2CB;
+    --marigold: #E8A317;
+    --teal: #0B6B5D;
+    --video: #C2410C;
+    --copy: #7C3AED;
+    --web: #0B6B5D;
+    --ai: #1D4ED8;
+    --ops: #4D7C0F;
+    --cs: #BE185D;
+    --onboarding: #0369A1;
+    --sales: #A16207;
+    --admin: #475569;
+    --display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+    --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 3.5rem; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 1rem/1.5 var(--body);
+    -webkit-text-size-adjust: 100%;
+  }
+  a { color: var(--teal); text-underline-offset: 3px; }
+  a:hover { color: var(--ink); }
+  :focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; border-radius: 3px; }
+
+  .wrap { max-width: 62rem; margin: 0 auto; padding: 0 1.25rem; }
+
+  header.top { padding: 3rem 0 1.5rem; }
+  h1 {
+    margin: 0 0 .75rem;
+    font: 700 clamp(2.1rem, 5.5vw, 3.6rem)/1.02 var(--display);
+    letter-spacing: -0.02em;
+    max-width: 14ch;
+  }
+  .lede { margin: 0; max-width: 46ch; color: var(--muted); font-size: 1.0625rem; }
+  .updated { margin: .75rem 0 0; font-size: .875rem; color: var(--muted); }
+
+  /* Franja de frescura: la pieza central de la pagina */
+  .strip-box { padding: 1rem 0 1.25rem; border-top: 1px solid var(--line); }
+  .strip-title { margin: 0 0 .5rem; font-size: .875rem; color: var(--muted); }
+  .strip {
+    display: grid;
+    grid-template-columns: repeat(14, minmax(0, 1fr));
+    gap: 4px;
+    align-items: end;
+    height: 5.5rem;
+  }
+  .day {
+    all: unset;
+    box-sizing: border-box;
+    display: flex; flex-direction: column; justify-content: flex-end; align-items: center;
+    height: 100%;
+    cursor: pointer;
+    gap: 4px;
+  }
+  .day .bar {
+    width: 100%;
+    min-height: 3px;
+    background: var(--marigold);
+    border-radius: 2px 2px 0 0;
+  }
+  .day[data-empty="true"] .bar { background: var(--line); }
+  .day .num { font-size: .75rem; color: var(--muted); line-height: 1; }
+  .day:hover .bar { background: var(--ink); }
+  .day[aria-pressed="true"] .bar { background: var(--ink); }
+  .day[aria-pressed="true"] .num { color: var(--ink); font-weight: 600; }
+  .day:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  /* Filtros */
+  .filters { padding: 1rem 0 1.25rem; border-top: 1px solid var(--line); display: grid; gap: 1rem; }
+  .row-filters { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+  .chip {
+    font: 500 .9375rem/1 var(--body);
+    padding: .6rem .9rem;
+    border: 1.5px solid var(--ink);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  .chip .n { margin-left: .4rem; opacity: .75; font-weight: 400; }
+  .controls { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: end; }
+  .field { display: grid; gap: .25rem; font-size: .875rem; color: var(--muted); }
+  .field select, .field input[type="search"] {
+    font: 400 1rem var(--body);
+    color: var(--ink);
+    background: var(--panel);
+    border: 1.5px solid var(--line);
+    border-radius: 6px;
+    padding: .55rem .7rem;
+    min-width: 13rem;
+  }
+  .field input[type="search"] { min-width: 15rem; }
+  .check { display: flex; align-items: center; gap: .5rem; font-size: .9375rem; padding-bottom: .55rem; }
+  .check input { width: 1.1rem; height: 1.1rem; accent-color: var(--ink); }
+  .result-count { margin: 0; font-size: .9375rem; color: var(--muted); }
+  .link-btn { all: unset; color: var(--teal); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .link-btn:hover { color: var(--ink); }
+  .link-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  /* Lista */
+  .group h2 {
+    position: sticky; top: 0; z-index: 2;
+    margin: 0;
+    padding: .7rem 0 .5rem;
+    background: var(--paper);
+    border-bottom: 1.5px solid var(--ink);
+    font: 700 1.125rem/1.2 var(--display);
+    display: flex; gap: .75rem; align-items: baseline;
+  }
+  .group h2 .count { font: 400 .875rem var(--body); color: var(--muted); }
+  ul.jobs { list-style: none; margin: 0 0 1.5rem; padding: 0; }
+  li.job {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 11rem 8.5rem;
+    gap: .25rem 1.25rem;
+    padding: .9rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .title { font: 600 1.0625rem/1.3 var(--body); color: var(--ink); text-decoration-thickness: 1px; }
+  .title:hover { color: var(--teal); }
+  .meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: .1rem 1rem; margin-top: .1rem; }
+  .company { color: var(--muted); font-size: .9375rem; }
+  .extra { font-size: .875rem; color: var(--muted); }
+  .areas { display: flex; flex-wrap: wrap; gap: .25rem .75rem; }
+  .area { font-size: .8125rem; font-weight: 500; display: inline-flex; align-items: center; gap: .35rem; }
+  .area::before { content: ""; width: .6rem; height: .6rem; border-radius: 50%; background: var(--c, var(--ink)); }
+  .area[data-area="video"] { --c: var(--video); }
+  .area[data-area="copy"] { --c: var(--copy); }
+  .area[data-area="web"] { --c: var(--web); }
+  .area[data-area="ai"] { --c: var(--ai); }
+  .area[data-area="ops"] { --c: var(--ops); }
+  .area[data-area="cs"] { --c: var(--cs); }
+  .area[data-area="onboarding"] { --c: var(--onboarding); }
+  .area[data-area="sales"] { --c: var(--sales); }
+  .area[data-area="admin"] { --c: var(--admin); }
+  .where { font-size: .9375rem; }
+  .where small { display: block; color: var(--muted); font-size: .8125rem; }
+  .src { font-size: .875rem; }
+  .src .also { display: block; color: var(--muted); font-size: .8125rem; }
+  .src .kind { display: block; color: var(--muted); font-size: .8125rem; }
+  .emp-list li.bad a { color: #9A3412; }
+
+  .empty { padding: 2.5rem 0; max-width: 42ch; }
+  .empty h2 { font: 700 1.375rem/1.2 var(--display); margin: 0 0 .5rem; }
+  .empty p { margin: 0 0 .5rem; color: var(--muted); }
+
+  footer { border-top: 1px solid var(--line); padding: 1.5rem 0 3rem; font-size: .875rem; color: var(--muted); }
+  footer p { margin: 0 0 .75rem; max-width: 62ch; }
+  footer ul { list-style: none; padding: 0; margin: 0 0 1rem; display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
+  .src-bad { color: #9A3412; }
+
+  @media (max-width: 720px) {
+    header.top { padding-top: 2rem; }
+    li.job { grid-template-columns: 1fr; gap: .15rem; }
+    .where, .src { display: flex; flex-wrap: wrap; gap: .1rem .6rem; align-items: baseline; }
+    .where small, .src .also { display: inline; }
+    .field select, .field input[type="search"] { min-width: 0; width: 100%; }
+    .field { flex: 1 1 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Radar de trabajo remoto para LATAM</h1>
+    <p class="lede">Vacantes de video editing, copywriting, desarrollo web, automatización con IA, operaciones, customer success, onboarding, inside sales y administración abiertas a quienes viven en Latinoamérica. Se actualiza todos los días.</p>
+    <p class="updated" id="updated" aria-live="polite"></p>
+  </header>
+
+  <section class="strip-box" aria-labelledby="strip-title">
+    <p class="strip-title" id="strip-title">Vacantes publicadas por día, últimas dos semanas. Toca un día para verlo.</p>
+    <div class="strip" id="strip" role="group" aria-labelledby="strip-title"></div>
+  </section>
+
+  <section class="filters" aria-label="Filtros">
+    <div class="row-filters" id="areas" role="group" aria-label="Área"></div>
+    <div class="controls">
+      <label class="field">Vivo en
+        <select id="country"></select>
+      </label>
+      <label class="field">Buscar en el título
+        <input type="search" id="q" placeholder="Ej: shopify, reels, n8n" autocomplete="off">
+      </label>
+      <label class="check"><input type="checkbox" id="unknown"> <span id="unknown-label">Incluir vacantes sin región indicada</span></label>
+    </div>
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+  </section>
+
+  <main id="list"></main>
+
+  <footer>
+    <p>Las vacantes vienen de estas fuentes y cada una enlaza a su publicación original. Ahí confirmas si sigue abierta, la región exacta y cómo aplicar.</p>
+    <ul id="sources"></ul>
+    <p id="emp-intro" hidden>Además se revisan directamente los sitios de empleo de estas empresas. Solo se publican sus vacantes remotas que no exigen vivir en EE. UU. ni fuera de LATAM.</p>
+    <ul id="employers" class="emp-list"></ul>
+    <p>La región se lee del texto que publica cada fuente y puede equivocarse. Revisa siempre los requisitos en la vacante.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var COUNTRY_ES = {
+    "Argentina": "Argentina", "Bolivia": "Bolivia", "Brazil": "Brasil", "Chile": "Chile",
+    "Colombia": "Colombia", "Costa Rica": "Costa Rica", "Cuba": "Cuba",
+    "Dominican Republic": "República Dominicana", "Ecuador": "Ecuador",
+    "El Salvador": "El Salvador", "Guatemala": "Guatemala", "Honduras": "Honduras",
+    "Mexico": "México", "Nicaragua": "Nicaragua", "Panama": "Panamá",
+    "Paraguay": "Paraguay", "Peru": "Perú", "Uruguay": "Uruguay", "Venezuela": "Venezuela"
+  };
+  var DAYS_IN_STRIP = 14;
+
+  var state = { areas: [], country: "", q: "", unknown: false, day: "" };
+  var data = null;
+
+  var $ = function (id) { return document.getElementById(id); };
+  function el(tag, props, children) {
+    var n = document.createElement(tag);
+    if (props) Object.keys(props).forEach(function (k) {
+      if (k === "text") n.textContent = props[k];
+      else if (k === "class") n.className = props[k];
+      else n.setAttribute(k, props[k]);
+    });
+    (children || []).forEach(function (c) { if (c) n.appendChild(c); });
+    return n;
+  }
+  function safeHref(u) {
+    try { var x = new URL(u); return (x.protocol === "https:" || x.protocol === "http:") ? x.href : null; }
+    catch (e) { return null; }
+  }
+  function fold(s) { return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
+  function dayKey(d) {
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  }
+
+  /* ---- estado en la URL, para compartir una vista filtrada ---- */
+  function readUrl() {
+    var p = new URLSearchParams(location.search);
+    state.areas = (p.get("area") || "").split(",").filter(Boolean);
+    state.country = p.get("pais") || "";
+    state.q = p.get("q") || "";
+    state.unknown = p.get("sin") === "1";
+    state.day = p.get("dia") || "";
+  }
+  function writeUrl() {
+    var p = new URLSearchParams();
+    if (state.areas.length) p.set("area", state.areas.join(","));
+    if (state.country) p.set("pais", state.country);
+    if (state.q) p.set("q", state.q);
+    if (state.unknown) p.set("sin", "1");
+    if (state.day) p.set("dia", state.day);
+    var qs = p.toString();
+    history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  }
+
+  /* ---- filtros ---- */
+  function passesRegion(j) {
+    if (j.scope === "worldwide" || j.scope === "latam") return true;
+    if (j.scope === "countries") return !state.country || j.countries.indexOf(state.country) !== -1;
+    return state.unknown; // unknown
+  }
+  function passesBase(j) {
+    if (state.areas.length && !j.niches.some(function (n) { return state.areas.indexOf(n) !== -1; })) return false;
+    if (state.q) {
+      var hay = fold(j.title + " " + j.company);
+      var words = fold(state.q).split(/\s+/).filter(Boolean);
+      if (!words.every(function (w) { return hay.indexOf(w) !== -1; })) return false;
+    }
+    return passesRegion(j);
+  }
+
+  /* ---- render ---- */
+  function regionLabel(j) {
+    if (j.scope === "worldwide") return { main: "Todo el mundo", sub: "" };
+    if (j.scope === "latam") return { main: "Toda LATAM", sub: "" };
+    if (j.scope === "countries") {
+      var names = j.countries.map(function (c) { return COUNTRY_ES[c] || c; });
+      var main = names.slice(0, 3).join(", ");
+      if (names.length > 3) main += " y " + (names.length - 3) + " más";
+      return { main: main, sub: "" };
+    }
+    if (j.source_type === "employer") {
+      return { main: "Región sin indicar", sub: "No exige EE. UU. en el texto, pero tampoco confirma LATAM" };
+    }
+    return { main: "Región sin indicar", sub: j.location || "" };
+  }
+
+  function renderAreas() {
+    var box = $("areas"); box.textContent = "";
+    var counts = {};
+    data.jobs.forEach(function (j) {
+      if (!passesRegion(j)) return;
+      j.niches.forEach(function (n) { counts[n] = (counts[n] || 0) + 1; });
+    });
+    data.meta.niches.forEach(function (n) {
+      var pressed = state.areas.indexOf(n.id) !== -1;
+      var b = el("button", { type: "button", "class": "chip", "aria-pressed": String(pressed) });
+      b.appendChild(document.createTextNode(n.label));
+      b.appendChild(el("span", { "class": "n", text: String(counts[n.id] || 0) }));
+      b.addEventListener("click", function () {
+        var i = state.areas.indexOf(n.id);
+        if (i === -1) state.areas.push(n.id); else state.areas.splice(i, 1);
+        update();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function renderCountries() {
+    var sel = $("country"); sel.textContent = "";
+    sel.appendChild(el("option", { value: "", text: "Cualquier país de LATAM" }));
+    data.meta.countries.forEach(function (c) {
+      var o = el("option", { value: c, text: COUNTRY_ES[c] || c });
+      if (c === state.country) o.selected = true;
+      sel.appendChild(o);
+    });
+  }
+
+  function renderStrip(rows) {
+    var strip = $("strip"); strip.textContent = "";
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    var days = [], map = {};
+    for (var i = DAYS_IN_STRIP - 1; i >= 0; i--) {
+      var d = new Date(today); d.setDate(today.getDate() - i);
+      var k = dayKey(d); map[k] = 0; days.push({ key: k, date: d });
+    }
+    rows.forEach(function (j) { var k = dayKey(new Date(j.posted)); if (k in map) map[k]++; });
+    var max = Math.max.apply(null, days.map(function (d) { return map[d.key]; }).concat([1]));
+    var fmt = new Intl.DateTimeFormat("es", { weekday: "long", day: "numeric", month: "long" });
+    days.forEach(function (d) {
+      var n = map[d.key];
+      var label = fmt.format(d.date) + ": " + n + (n === 1 ? " vacante" : " vacantes");
+      var b = el("button", {
+        type: "button", "class": "day", "aria-pressed": String(state.day === d.key),
+        "aria-label": label, title: label, "data-empty": String(n === 0)
+      });
+      var bar = el("span", { "class": "bar" });
+      bar.style.height = Math.max(3, Math.round((n / max) * 100)) * 0.62 + "%";
+      b.appendChild(bar);
+      b.appendChild(el("span", { "class": "num", text: String(d.date.getDate()) }));
+      b.addEventListener("click", function () { state.day = state.day === d.key ? "" : d.key; update(); });
+      strip.appendChild(b);
+    });
+  }
+
+  function dayHeading(key) {
+    var parts = key.split("-").map(Number);
+    var d = new Date(parts[0], parts[1] - 1, parts[2]);
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    var diff = Math.round((today - d) / 86400000);
+    if (diff === 0) return "Hoy";
+    if (diff === 1) return "Ayer";
+    return new Intl.DateTimeFormat("es", { weekday: "long", day: "numeric", month: "long" }).format(d);
+  }
+
+  function jobRow(j) {
+    var href = safeHref(j.url);
+    var main = el("div", { "class": "main" });
+    main.appendChild(href
+      ? el("a", { "class": "title", href: href, target: "_blank", rel: "noopener", text: j.title })
+      : el("span", { "class": "title", text: j.title }));
+    var meta = el("div", { "class": "meta" });
+    if (j.company) meta.appendChild(el("span", { "class": "company", text: j.company }));
+    var extra = [j.type, j.salary].filter(Boolean).join("   ");
+    if (extra) meta.appendChild(el("span", { "class": "extra", text: extra }));
+    var areas = el("div", { "class": "areas" });
+    j.niches.forEach(function (id) {
+      var nm = data.meta.niches.filter(function (n) { return n.id === id; })[0];
+      areas.appendChild(el("span", { "class": "area", "data-area": id, text: nm ? nm.label : id }));
+    });
+    meta.appendChild(areas);
+    main.appendChild(meta);
+
+    var r = regionLabel(j);
+    var where = el("div", { "class": "where" }, [document.createTextNode(r.main)]);
+    if (r.sub) where.appendChild(el("small", { text: r.sub }));
+
+    var src = el("div", { "class": "src" });
+    var first = (j.sources && j.sources[0]) || { name: j.source, url: j.url };
+    var fh = safeHref(first.url);
+    src.appendChild(fh ? el("a", { href: fh, target: "_blank", rel: "noopener", text: first.name }) : document.createTextNode(first.name));
+    if (j.source_type === "employer") src.appendChild(el("span", { "class": "kind", text: "Empresa directa" }));
+    if (j.sources.length > 1) {
+      var also = el("span", { "class": "also" });
+      also.appendChild(document.createTextNode("también en "));
+      j.sources.slice(1).forEach(function (s, i) {
+        if (i) also.appendChild(document.createTextNode(", "));
+        var h = safeHref(s.url);
+        also.appendChild(h ? el("a", { href: h, target: "_blank", rel: "noopener", text: s.name }) : document.createTextNode(s.name));
+      });
+      src.appendChild(also);
+    }
+    return el("li", { "class": "job" }, [main, where, src]);
+  }
+
+  function renderList(rows) {
+    var box = $("list"); box.textContent = "";
+    if (!rows.length) {
+      var empty = el("div", { "class": "empty" });
+      empty.appendChild(el("h2", { text: "Ninguna vacante coincide" }));
+      empty.appendChild(el("p", { text: "Prueba quitar el filtro de día, cambiar de país o buscar otra palabra." }));
+      var reset = el("button", { type: "button", "class": "link-btn", text: "Limpiar todos los filtros" });
+      reset.addEventListener("click", function () {
+        state = { areas: [], country: "", q: "", unknown: false, day: "" };
+        $("q").value = ""; $("unknown").checked = false; update(true);
+      });
+      empty.appendChild(reset);
+      box.appendChild(empty);
+      return;
+    }
+    var groups = [], idx = {};
+    rows.forEach(function (j) {
+      var k = dayKey(new Date(j.posted));
+      if (!(k in idx)) { idx[k] = groups.length; groups.push({ key: k, items: [] }); }
+      groups[idx[k]].items.push(j);
+    });
+    groups.forEach(function (g) {
+      var sec = el("section", { "class": "group" });
+      sec.appendChild(el("h2", null, [
+        document.createTextNode(dayHeading(g.key)),
+        el("span", { "class": "count", text: g.items.length + (g.items.length === 1 ? " vacante" : " vacantes") })
+      ]));
+      var ul = el("ul", { "class": "jobs" });
+      g.items.forEach(function (j) { ul.appendChild(jobRow(j)); });
+      sec.appendChild(ul);
+      box.appendChild(sec);
+    });
+  }
+
+  function renderMeta() {
+    var gen = new Date(data.meta.generated_at);
+    var hours = Math.max(0, Math.round((Date.now() - gen) / 3600000));
+    var when = hours < 1 ? "hace menos de una hora" : hours < 24 ? "hace " + hours + (hours === 1 ? " hora" : " horas")
+      : "el " + new Intl.DateTimeFormat("es", { day: "numeric", month: "long" }).format(gen);
+    $("updated").textContent = "Actualizado " + when + ". " + data.meta.total + " vacantes vigentes.";
+    var ul = $("sources"); ul.textContent = "";
+    data.meta.sources.forEach(function (s) {
+      var li = el("li");
+      var h = safeHref(s.home);
+      li.appendChild(h ? el("a", { href: h, target: "_blank", rel: "noopener", text: s.name }) : document.createTextNode(s.name));
+      if (!s.ok) li.appendChild(el("span", { "class": "src-bad", text: " (no respondió en la última actualización)" }));
+      ul.appendChild(li);
+    });
+  }
+
+  function renderEmployers() {
+    var list = data.meta.employers || [];
+    $("emp-intro").hidden = !list.length;
+    var ul = $("employers"); ul.textContent = "";
+    list.forEach(function (e) {
+      var li = el("li", { "class": e.ok ? "" : "bad" });
+      var h = safeHref(e.home);
+      li.appendChild(h ? el("a", { href: h, target: "_blank", rel: "noopener", text: e.name }) : document.createTextNode(e.name));
+      if (!e.ok) li.appendChild(el("span", { "class": "src-bad", text: " (no respondió)" }));
+      ul.appendChild(li);
+    });
+  }
+
+  function update(fromReset) {
+    var base = data.jobs.filter(passesBase);
+    var rows = state.day ? base.filter(function (j) { return dayKey(new Date(j.posted)) === state.day; }) : base;
+    renderAreas();
+    renderStrip(base);
+    renderList(rows);
+    var n = rows.length;
+    $("result-count").textContent = n + (n === 1 ? " vacante" : " vacantes") +
+      (state.day ? " el " + dayHeading(state.day).toLowerCase() : "");
+    var unk = data.jobs.filter(function (j) { return j.scope === "unknown"; }).length;
+    $("unknown-label").textContent = "Incluir vacantes sin región indicada (" + unk + ")";
+    if (fromReset) renderCountries();
+    writeUrl();
+  }
+
+  function init() {
+    readUrl();
+    renderMeta();
+    renderEmployers();
+    renderCountries();
+    $("q").value = state.q;
+    $("unknown").checked = state.unknown;
+    $("country").addEventListener("change", function (e) { state.country = e.target.value; update(); });
+    $("unknown").addEventListener("change", function (e) { state.unknown = e.target.checked; update(); });
+    var t;
+    $("q").addEventListener("input", function (e) {
+      clearTimeout(t); var v = e.target.value.trim();
+      t = setTimeout(function () { state.q = v; update(); }, 150);
+    });
+    update();
+  }
+
+  fetch("data/jobs.json", { cache: "no-cache" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (d) { data = d; init(); })
+    .catch(function () {
+      var box = $("list");
+      var e = el("div", { "class": "empty" });
+      e.appendChild(el("h2", { text: "No se pudieron cargar las vacantes" }));
+      e.appendChild(el("p", { text: "Si abriste index.html directamente desde tu computadora, el navegador bloquea la lectura de data/jobs.json. Sírvelo con: python3 -m http.server" }));
+      box.appendChild(e);
+    });
+})();
+</script>
+</body>
+</html>
