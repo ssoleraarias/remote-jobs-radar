@@ -273,7 +273,7 @@
     "CU"
   ],
   "himalayas_pages_per_query": 2,
-  "max_age_days": 45,
+  "max_age_days": 30,
   "stale_after_days": 10,
   "himalayas_countries_per_run": 4
 }
