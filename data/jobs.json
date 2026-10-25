@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at": "2026-10-24T10:42:22Z",
-  "total": 479,
+  "generated_at": "2026-10-25T10:42:22Z",
+  "total": 502,
   "niches": [
    {
     "id": "video",
@@ -67,7 +67,7 @@
     "home": "https://remoteok.com",
     "ok": true,
     "fetched": 99,
-    "kept": 8
+    "kept": 11
    },
    {
     "name": "Remotive",
@@ -80,8 +80,8 @@
     "name": "Himalayas",
     "home": "https://himalayas.app",
     "ok": true,
-    "fetched": 601,
-    "kept": 419
+    "fetched": 576,
+    "kept": 434
    },
    {
     "name": "We Work Remotely",
@@ -94,14 +94,14 @@
     "name": "Jobicy",
     "home": "https://jobicy.com",
     "ok": true,
-    "fetched": 194,
-    "kept": 35
+    "fetched": 198,
+    "kept": 41
    },
    {
     "name": "Working Nomads",
     "home": "https://www.workingnomads.com",
     "ok": true,
-    "fetched": 41,
+    "fetched": 39,
     "kept": 2
    }
   ],
@@ -246,7 +246,7 @@
     "ats": "greenhouse",
     "home": "https://job-boards.greenhouse.io/stripe",
     "ok": true,
-    "open": 720,
+    "open": 719,
     "candidates": 8,
     "kept": 0
    },
@@ -262,6 +262,620 @@
   ]
  },
  "jobs": [
+  {
+   "id": "5b29ec56cab6",
+   "title": "Executive Assistant - Real Estate",
+   "company": "Vitalis Outsourcing LLC",
+   "url": "https://himalayas.app/companies/vitalis-outsourcing-llc/jobs/executive-assistant-real-estate",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/vitalis-outsourcing-llc/jobs/executive-assistant-real-estate",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T09:39:21Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-24T09:39:20Z",
+   "niches": [
+    "admin"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Full Time",
+   "salary": "USD 6-7 / hour",
+   "tags": []
+  },
+  {
+   "id": "a370f45d5d01",
+   "title": "Business Operations Expert",
+   "company": "micro1",
+   "url": "https://himalayas.app/companies/micro1/jobs/business-operations-expert",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/micro1/jobs/business-operations-expert",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T09:01:41Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-24T09:01:41Z",
+   "niches": [
+    "ops"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Contractor",
+   "salary": "USD 45-90 / hour",
+   "tags": []
+  },
+  {
+   "id": "d9786d587bb7",
+   "title": "Mid-Level Graphic & Motion Designer",
+   "company": "BRND WGN",
+   "url": "https://himalayas.app/companies/brnd-wgn/jobs/mid-level-graphic-motion-designer-363864368",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/brnd-wgn/jobs/mid-level-graphic-motion-designer-363864368",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T08:42:32Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-24T08:42:32Z",
+   "niches": [
+    "video"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Full Time",
+   "salary": "EUR 40k / year",
+   "tags": []
+  },
+  {
+   "id": "c3e361f2db41",
+   "title": "Full Stack Developer (React + Node.js)",
+   "company": "Zoftify — Travel Software Development",
+   "url": "https://himalayas.app/companies/zoftify-travel-software-development/jobs/full-stack-developer-react-node-js",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/zoftify-travel-software-development/jobs/full-stack-developer-react-node-js",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T07:48:07Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-24T07:48:06Z",
+   "niches": [
+    "web"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "5968a4599f33",
+   "title": "Full Stack Web Engineer (Python & React)",
+   "company": "Oowlish Technology",
+   "url": "https://jobicy.com/jobs/151496-full-stack-web-engineer-python-react",
+   "source": "Jobicy",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Jobicy",
+     "url": "https://jobicy.com/jobs/151496-full-stack-web-engineer-python-react",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T04:10:03Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "web"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Argentina",
+    "Brazil",
+    "Mexico"
+   ],
+   "location": "Argentina, Brazil, Mexico",
+   "type": "Full-Time",
+   "salary": "",
+   "tags": [
+    "Software Engineering"
+   ]
+  },
+  {
+   "id": "47a1144286b3",
+   "title": "Full Stack Engineer (Vue + Nest)",
+   "company": "Oowlish Technology",
+   "url": "https://jobicy.com/jobs/151493-full-stack-engineer-vue-nest",
+   "source": "Jobicy",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Jobicy",
+     "url": "https://jobicy.com/jobs/151493-full-stack-engineer-vue-nest",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T04:09:59Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "web"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Argentina",
+    "Brazil",
+    "Mexico"
+   ],
+   "location": "Argentina, Brazil, Mexico",
+   "type": "Full-Time",
+   "salary": "",
+   "tags": [
+    "Software Engineering"
+   ]
+  },
+  {
+   "id": "6a35915fe05e",
+   "title": "Full-Stack Web Developer (Next.js) – Elvoro Ltd",
+   "company": "Elvoro",
+   "url": "https://himalayas.app/companies/elvoro/jobs/full-stack-web-developer-next-js-elvoro-ltd",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/elvoro/jobs/full-stack-web-developer-next-js-elvoro-ltd",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T03:11:01Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-24T03:11:00Z",
+   "niches": [
+    "web"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Contractor",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "8fa44815515a",
+   "title": "Senior Front End Engineer (AEM)",
+   "company": "Nikola Digital Lab",
+   "url": "https://himalayas.app/companies/nikola-digital-lab/jobs/senior-front-end-engineer-aem",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/nikola-digital-lab/jobs/senior-front-end-engineer-aem",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-25T01:25:32Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-24T01:25:31Z",
+   "niches": [
+    "web"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "71c9a2b10948",
+   "title": "Sales Development Representative | LATAM Only | 81184",
+   "company": "Remote Talent LATAM",
+   "url": "https://himalayas.app/companies/remote-talent-latam/jobs/sales-development-representative-latam-only-81184",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/remote-talent-latam/jobs/sales-development-representative-latam-only-81184",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T21:21:56Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-23T21:21:55Z",
+   "niches": [
+    "sales"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Brazil",
+    "El Salvador",
+    "Honduras",
+    "Nicaragua",
+    "Panama"
+   ],
+   "location": "Brazil, El Salvador, Honduras, Nicaragua, Panama",
+   "type": "Contractor",
+   "salary": "USD 1.5k / month",
+   "tags": []
+  },
+  {
+   "id": "5f409b7f8330",
+   "title": "Customer Success Manager, Enterprise",
+   "company": "Motive",
+   "url": "https://jobicy.com/jobs/156855-customer-success-manager-enterprise",
+   "source": "Jobicy",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Jobicy",
+     "url": "https://jobicy.com/jobs/156855-customer-success-manager-enterprise",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T20:22:12Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "cs"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Mexico"
+   ],
+   "location": "Mexico",
+   "type": "Full-Time",
+   "salary": "",
+   "tags": [
+    "Customer Support & Success"
+   ]
+  },
+  {
+   "id": "93eaeb1684df",
+   "title": "Frontend Developer (React)",
+   "company": "Zoftify — Travel Software Development",
+   "url": "https://himalayas.app/companies/zoftify-travel-software-development/jobs/frontend-developer-react",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/zoftify-travel-software-development/jobs/frontend-developer-react",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T19:47:44Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-23T19:47:43Z",
+   "niches": [
+    "web"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "2dceec930213",
+   "title": "Remote Customer Onboarding Support Specialist",
+   "company": "Spotter Labs",
+   "url": "https://himalayas.app/companies/spotter-labs/jobs/remote-customer-onboarding-support-specialist-6530893583",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/spotter-labs/jobs/remote-customer-onboarding-support-specialist-6530893583",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T19:30:39Z",
+   "first_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2027-01-13T17:29:17Z",
+   "niches": [
+    "onboarding"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "0e49d9f95bb7",
+   "title": "Operations Manager / Office Manager",
+   "company": "Offshore Launch",
+   "url": "https://himalayas.app/companies/offshore-launch/jobs/operations-manager-office-manager",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/offshore-launch/jobs/operations-manager-office-manager",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T19:30:28Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-11-23T02:06:46Z",
+   "niches": [
+    "ops",
+    "admin"
+   ],
+   "scope": "worldwide",
+   "countries": [],
+   "location": "Worldwide",
+   "type": "Full Time",
+   "salary": "USD 1.6k / month",
+   "tags": []
+  },
+  {
+   "id": "a1f11a817e4f",
+   "title": "Marketing Operations Specialist",
+   "company": "Endavant",
+   "url": "https://himalayas.app/companies/endavant/jobs/marketing-operations-specialist-5023574967",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/endavant/jobs/marketing-operations-specialist-5023574967",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T18:38:01Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-23T18:38:00Z",
+   "niches": [
+    "ops"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Panama"
+   ],
+   "location": "Panama",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "a369b02b48ae",
+   "title": "Recruiting Operations Specialist (Contract)",
+   "company": "TRM Labs",
+   "url": "https://jobicy.com/jobs/156793-recruiting-operations-specialist-contract",
+   "source": "Jobicy",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Jobicy",
+     "url": "https://jobicy.com/jobs/156793-recruiting-operations-specialist-contract",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T16:30:25Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "ops"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Brazil"
+   ],
+   "location": "Brazil",
+   "type": "Contract",
+   "salary": "",
+   "tags": [
+    "HR & Recruiting"
+   ]
+  },
+  {
+   "id": "6596f57689fe",
+   "title": "Billing Operations Analyst 1",
+   "company": "Twilio",
+   "url": "https://jobicy.com/jobs/156798-billing-operations-analyst-1",
+   "source": "Jobicy",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Jobicy",
+     "url": "https://jobicy.com/jobs/156798-billing-operations-analyst-1",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T16:30:24Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "ops"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Mexico"
+   ],
+   "location": "Mexico",
+   "type": "Full-Time",
+   "salary": "",
+   "tags": [
+    "Finance & Accounting"
+   ]
+  },
+  {
+   "id": "0d7d013d6129",
+   "title": "Customer Success Engineer",
+   "company": "HYCU, Inc.",
+   "url": "https://himalayas.app/companies/hycu-inc/jobs/customer-success-engineer-2638598276",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/hycu-inc/jobs/customer-success-engineer-2638598276",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T13:20:29Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-23T13:20:27Z",
+   "niches": [
+    "cs"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
+   "type": "Contractor",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "a5b6a53c5fbf",
+   "title": "Digital Designer & Front-End Developer (HTML/CSS)",
+   "company": "Apply Minds",
+   "url": "https://himalayas.app/companies/apply-minds/jobs/digital-designer-front-end-developer-html-css",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/apply-minds/jobs/digital-designer-front-end-developer-html-css",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T12:10:53Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-23T12:10:52Z",
+   "niches": [
+    "web"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Argentina",
+    "Colombia",
+    "Ecuador",
+    "Peru"
+   ],
+   "location": "Argentina, Colombia, Ecuador, Peru, South Africa, Trinidad and Tobago",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "110e396bce96",
+   "title": "Sales Development Representative",
+   "company": "Assistant Launch",
+   "url": "https://himalayas.app/companies/assistant-launch/jobs/sales-development-representative",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/assistant-launch/jobs/sales-development-representative",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-24T10:16:14Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-23T10:16:13Z",
+   "niches": [
+    "sales"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
   {
    "id": "420f71129897",
    "title": "Full Stack Developer (Java/Oracle/React)",
@@ -312,7 +926,7 @@
    ],
    "posted": "2026-10-24T07:31:04Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-23T07:31:04Z",
    "niches": [
     "cs"
@@ -342,7 +956,7 @@
    ],
    "posted": "2026-10-24T07:31:03Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-23T07:31:03Z",
    "niches": [
     "ops"
@@ -372,7 +986,7 @@
    ],
    "posted": "2026-10-24T07:30:50Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-23T07:30:50Z",
    "niches": [
     "cs"
@@ -434,7 +1048,7 @@
    ],
    "posted": "2026-10-24T07:02:36Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-23T07:02:36Z",
    "niches": [
     "web"
@@ -528,7 +1142,7 @@
    ],
    "posted": "2026-10-24T03:45:29Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "sales"
@@ -592,7 +1206,7 @@
    ],
    "posted": "2026-10-24T03:35:09Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -656,7 +1270,7 @@
    ],
    "posted": "2026-10-24T02:04:43Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-23T02:04:42Z",
    "niches": [
     "web"
@@ -750,7 +1364,7 @@
    ],
    "posted": "2026-10-23T23:58:06Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-21T21:14:38Z",
    "niches": [
     "video"
@@ -812,7 +1426,7 @@
    ],
    "posted": "2026-10-23T21:18:24Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T21:18:22Z",
    "niches": [
     "web"
@@ -842,7 +1456,7 @@
    ],
    "posted": "2026-10-23T21:13:07Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T21:13:06Z",
    "niches": [
     "sales"
@@ -887,10 +1501,10 @@
    "tags": []
   },
   {
-   "id": "2dceec930213",
-   "title": "Remote Customer Onboarding Support Specialist",
-   "company": "Spotter Labs",
-   "url": "https://himalayas.app/companies/spotter-labs/jobs/remote-customer-onboarding-support-specialist-6530893583",
+   "id": "30f26026f08c",
+   "title": "Customer Success Representative",
+   "company": "Smarsh",
+   "url": "https://himalayas.app/companies/smarsh/jobs/customer-success-representative-693401079",
    "source": "Himalayas",
    "source_type": "board",
    "src_key": null,
@@ -898,20 +1512,22 @@
    "sources": [
     {
      "name": "Himalayas",
-     "url": "https://himalayas.app/companies/spotter-labs/jobs/remote-customer-onboarding-support-specialist-6530893583",
+     "url": "https://himalayas.app/companies/smarsh/jobs/customer-success-representative-693401079",
      "type": "board"
     }
    ],
-   "posted": "2026-10-23T19:31:37Z",
-   "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
-   "expires": "2027-01-13T17:29:17Z",
+   "posted": "2026-10-23T19:52:50Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-22T19:52:49Z",
    "niches": [
-    "onboarding"
+    "cs"
    ],
-   "scope": "worldwide",
-   "countries": [],
-   "location": "Worldwide",
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
    "type": "Full Time",
    "salary": "",
    "tags": []
@@ -934,7 +1550,7 @@
    ],
    "posted": "2026-10-23T19:31:36Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-31T18:02:56Z",
    "niches": [
     "web"
@@ -964,7 +1580,7 @@
    ],
    "posted": "2026-10-23T19:31:36Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-31T18:02:43Z",
    "niches": [
     "ops"
@@ -994,7 +1610,7 @@
    ],
    "posted": "2026-10-23T18:01:17Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "onboarding"
@@ -1060,7 +1676,7 @@
    ],
    "posted": "2026-10-23T17:13:54Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T17:13:53Z",
    "niches": [
     "admin"
@@ -1122,7 +1738,7 @@
    ],
    "posted": "2026-10-23T16:38:22Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "sales"
@@ -1136,6 +1752,117 @@
    "salary": "",
    "tags": [
     "Business Development"
+   ]
+  },
+  {
+   "id": "72ea6a5fddd5",
+   "title": "Sales Development Representative German Speaking",
+   "company": "Huzzle",
+   "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-german-speaking-huzzle-1137563",
+   "source": "RemoteOK",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "RemoteOK",
+     "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-german-speaking-huzzle-1137563",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-23T16:00:18Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "sales"
+   ],
+   "scope": "unknown",
+   "countries": [],
+   "location": "",
+   "type": "",
+   "salary": "",
+   "tags": [
+    "saas",
+    "sys admin",
+    "dev",
+    "marketing",
+    "finance",
+    "c"
+   ]
+  },
+  {
+   "id": "46d0d6dd1c46",
+   "title": "Senior Frontend Engineer",
+   "company": "B2spin",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-frontend-engineer-b2spin-1137562",
+   "source": "RemoteOK",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "RemoteOK",
+     "url": "https://remoteOK.com/remote-jobs/remote-senior-frontend-engineer-b2spin-1137562",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-23T16:00:12Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "web"
+   ],
+   "scope": "unknown",
+   "countries": [],
+   "location": "",
+   "type": "",
+   "salary": "",
+   "tags": [
+    "front end",
+    "design",
+    "react",
+    "embedded",
+    "sys admin",
+    "game dev"
+   ]
+  },
+  {
+   "id": "b518a8ff0d97",
+   "title": "Sales Development Representative B2B",
+   "company": "Huzzle",
+   "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-b2b-huzzle-1137561",
+   "source": "RemoteOK",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "RemoteOK",
+     "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-b2b-huzzle-1137561",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-23T16:00:06Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": null,
+   "niches": [
+    "sales"
+   ],
+   "scope": "unknown",
+   "countries": [],
+   "location": "",
+   "type": "",
+   "salary": "",
+   "tags": [
+    "saas",
+    "salesforce",
+    "education",
+    "customer support",
+    "marketing",
+    "finance"
    ]
   },
   {
@@ -1156,7 +1883,7 @@
    ],
    "posted": "2026-10-23T12:36:57Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T12:36:57Z",
    "niches": [
     "web"
@@ -1186,7 +1913,7 @@
    ],
    "posted": "2026-10-23T11:18:06Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T11:18:05Z",
    "niches": [
     "ops"
@@ -1248,7 +1975,7 @@
    ],
    "posted": "2026-10-23T09:26:39Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "sales"
@@ -1280,7 +2007,7 @@
    ],
    "posted": "2026-10-23T08:38:05Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T08:38:04Z",
    "niches": [
     "web"
@@ -1318,7 +2045,7 @@
    ],
    "posted": "2026-10-23T08:06:48Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T08:06:48Z",
    "niches": [
     "web"
@@ -1348,7 +2075,7 @@
    ],
    "posted": "2026-10-23T08:00:05Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "onboarding"
@@ -1417,7 +2144,7 @@
    ],
    "posted": "2026-10-23T07:34:09Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T07:34:09Z",
    "niches": [
     "web"
@@ -1527,6 +2254,38 @@
    "tags": []
   },
   {
+   "id": "816e644911a5",
+   "title": "Bilingual Spanish-English Executive Assistant",
+   "company": "Ataraxis Management",
+   "url": "https://himalayas.app/companies/ataraxis-management/jobs/bilingual-spanish-english-executive-assistant-5305215269",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/ataraxis-management/jobs/bilingual-spanish-english-executive-assistant-5305215269",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-23T06:34:09Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-22T06:34:08Z",
+   "niches": [
+    "admin"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Panama"
+   ],
+   "location": "Panama",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
    "id": "d846d3bbbbfb",
    "title": "1177 - Shopify Store Specialist- (E-commerce expert)",
    "company": "GoFasti",
@@ -1544,7 +2303,7 @@
    ],
    "posted": "2026-10-23T05:49:56Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T05:49:55Z",
    "niches": [
     "web"
@@ -1594,7 +2353,7 @@
    ],
    "posted": "2026-10-23T03:38:23Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T03:38:22Z",
    "niches": [
     "ai"
@@ -1659,6 +2418,38 @@
    "tags": []
   },
   {
+   "id": "fcd285d35b66",
+   "title": "Motion Designer",
+   "company": "Publicis Groupe",
+   "url": "https://himalayas.app/companies/publicis-groupe/jobs/motion-designer",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/publicis-groupe/jobs/motion-designer",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-23T01:23:33Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-22T01:23:32Z",
+   "niches": [
+    "video"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
    "id": "e7bb9afa7770",
    "title": "Sales Development Manager",
    "company": "PlanITROI LLC",
@@ -1676,7 +2467,7 @@
    ],
    "posted": "2026-10-23T00:14:28Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-22T00:14:27Z",
    "niches": [
     "sales"
@@ -1758,7 +2549,7 @@
    ],
    "posted": "2026-10-22T23:38:57Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T23:38:56Z",
    "niches": [
     "cs"
@@ -1767,7 +2558,7 @@
    "countries": [],
    "location": "Worldwide",
    "type": "Full Time",
-   "salary": "USD 650-750 / month",
+   "salary": "",
    "tags": []
   },
   {
@@ -1820,7 +2611,7 @@
    ],
    "posted": "2026-10-22T22:26:57Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T22:26:57Z",
    "niches": [
     "web"
@@ -1850,7 +2641,7 @@
    ],
    "posted": "2026-10-22T22:21:40Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T22:21:39Z",
    "niches": [
     "admin"
@@ -1944,7 +2735,7 @@
    ],
    "posted": "2026-10-22T19:58:31Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T19:58:30Z",
    "niches": [
     "ai"
@@ -2006,7 +2797,7 @@
    ],
    "posted": "2026-10-22T19:34:08Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-29T03:50:58Z",
    "niches": [
     "video"
@@ -2100,7 +2891,7 @@
    ],
    "posted": "2026-10-22T18:08:21Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-21T18:08:21Z",
    "niches": [
     "sales"
@@ -2162,7 +2953,7 @@
    ],
    "posted": "2026-10-22T16:18:38Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T16:18:36Z",
    "niches": [
     "onboarding"
@@ -2276,7 +3067,7 @@
    ],
    "posted": "2026-10-22T11:28:06Z",
    "first_seen": "2026-10-22T17:22:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T11:28:04Z",
    "niches": [
     "web"
@@ -2306,7 +3097,7 @@
    ],
    "posted": "2026-10-22T11:17:34Z",
    "first_seen": "2026-10-22T17:22:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T11:17:34Z",
    "niches": [
     "ai"
@@ -2401,7 +3192,7 @@
    ],
    "posted": "2026-10-22T10:21:19Z",
    "first_seen": "2026-10-22T17:22:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T10:21:18Z",
    "niches": [
     "ai"
@@ -2463,7 +3254,7 @@
    ],
    "posted": "2026-10-22T09:42:11Z",
    "first_seen": "2026-10-22T17:22:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T09:42:10Z",
    "niches": [
     "admin"
@@ -2493,7 +3284,7 @@
    ],
    "posted": "2026-10-22T09:30:51Z",
    "first_seen": "2026-10-22T17:22:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T09:30:50Z",
    "niches": [
     "ai"
@@ -2523,7 +3314,7 @@
    ],
    "posted": "2026-10-22T09:30:10Z",
    "first_seen": "2026-10-22T17:22:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "onboarding"
@@ -2617,7 +3408,7 @@
    ],
    "posted": "2026-10-22T07:31:09Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-21T07:31:09Z",
    "niches": [
     "ops"
@@ -2647,7 +3438,7 @@
    ],
    "posted": "2026-10-22T07:31:08Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-21T07:31:08Z",
    "niches": [
     "ai"
@@ -2677,7 +3468,7 @@
    ],
    "posted": "2026-10-22T07:30:54Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-21T07:30:54Z",
    "niches": [
     "cs"
@@ -2867,7 +3658,7 @@
    ],
    "posted": "2026-10-22T03:28:07Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T03:28:06Z",
    "niches": [
     "web"
@@ -3005,7 +3796,7 @@
    ],
    "posted": "2026-10-22T01:14:59Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T01:14:58Z",
    "niches": [
     "web"
@@ -3046,7 +3837,7 @@
    ],
    "posted": "2026-10-22T00:56:09Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-21T00:56:08Z",
    "niches": [
     "copy"
@@ -3239,7 +4030,7 @@
    ],
    "posted": "2026-10-21T21:06:43Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-20T21:00:00Z",
    "niches": [
     "copy"
@@ -3269,7 +4060,7 @@
    ],
    "posted": "2026-10-21T21:06:42Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-20T21:00:00Z",
    "niches": [
     "video"
@@ -3361,7 +4152,7 @@
    ],
    "posted": "2026-10-21T19:30:14Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-07T00:44:22Z",
    "niches": [
     "admin"
@@ -3391,7 +4182,7 @@
    ],
    "posted": "2026-10-21T18:02:41Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "ai"
@@ -3425,7 +4216,7 @@
    ],
    "posted": "2026-10-21T18:02:40Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "ops"
@@ -3459,7 +4250,7 @@
    ],
    "posted": "2026-10-21T18:02:40Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "cs"
@@ -3493,7 +4284,7 @@
    ],
    "posted": "2026-10-21T16:10:53Z",
    "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "ops"
@@ -3591,7 +4382,7 @@
    ],
    "posted": "2026-10-21T10:31:51Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-12T22:34:46Z",
    "niches": [
     "sales"
@@ -3621,7 +4412,7 @@
    ],
    "posted": "2026-10-21T07:31:16Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-20T07:31:16Z",
    "niches": [
     "ops"
@@ -3651,7 +4442,7 @@
    ],
    "posted": "2026-10-21T06:37:46Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-20T06:37:46Z",
    "niches": [
     "ops"
@@ -3681,7 +4472,7 @@
    ],
    "posted": "2026-10-21T03:18:43Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -3713,7 +4504,7 @@
    ],
    "posted": "2026-10-21T03:15:45Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "ops"
@@ -3745,7 +4536,7 @@
    ],
    "posted": "2026-10-21T03:10:07Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -3781,7 +4572,7 @@
    ],
    "posted": "2026-10-21T01:07:13Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T12:47:39Z",
    "niches": [
     "sales"
@@ -3831,7 +4622,7 @@
    ],
    "posted": "2026-10-21T00:49:22Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-20T00:49:21Z",
    "niches": [
     "cs"
@@ -3847,7 +4638,7 @@
    ],
    "location": "Argentina, Chile, Colombia, Ethiopia, Mexico, Panama, Peru, Philippines, South Africa",
    "type": "Contractor",
-   "salary": "USD 800-3k / month",
+   "salary": "",
    "tags": []
   },
   {
@@ -3868,7 +4659,7 @@
    ],
    "posted": "2026-10-20T19:30:14Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-19T00:55:23Z",
    "niches": [
     "ops"
@@ -3898,7 +4689,7 @@
    ],
    "posted": "2026-10-20T16:58:10Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-19T16:58:10Z",
    "niches": [
     "video"
@@ -3928,7 +4719,7 @@
    ],
    "posted": "2026-10-20T16:58:07Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-19T16:58:07Z",
    "niches": [
     "admin"
@@ -3958,7 +4749,7 @@
    ],
    "posted": "2026-10-20T16:06:56Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2028-10-19T23:06:26Z",
    "niches": [
     "cs"
@@ -3988,7 +4779,7 @@
    ],
    "posted": "2026-10-20T15:27:07Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "onboarding"
@@ -4020,7 +4811,7 @@
    ],
    "posted": "2026-10-20T15:27:06Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -4054,7 +4845,7 @@
    ],
    "posted": "2026-10-20T15:27:06Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "onboarding"
@@ -4086,7 +4877,7 @@
    ],
    "posted": "2026-10-20T15:27:06Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -4120,7 +4911,7 @@
    ],
    "posted": "2026-10-20T09:59:32Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -4154,7 +4945,7 @@
    ],
    "posted": "2026-10-20T09:59:32Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -4221,7 +5012,7 @@
    ],
    "posted": "2026-10-20T04:15:15Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "cs"
@@ -4253,7 +5044,7 @@
    ],
    "posted": "2026-10-20T02:34:20Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-19T02:34:18Z",
    "niches": [
     "sales"
@@ -4283,7 +5074,7 @@
    ],
    "posted": "2026-10-19T17:14:27Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -4315,7 +5106,7 @@
    ],
    "posted": "2026-10-19T17:14:27Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -4347,7 +5138,7 @@
    ],
    "posted": "2026-10-19T16:58:13Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-18T16:58:13Z",
    "niches": [
     "sales"
@@ -4439,7 +5230,7 @@
    ],
    "posted": "2026-10-19T13:40:25Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "ops"
@@ -4599,7 +5390,7 @@
    ],
    "posted": "2026-10-19T07:32:25Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-18T07:32:25Z",
    "niches": [
     "cs"
@@ -4629,7 +5420,7 @@
    ],
    "posted": "2026-10-19T07:31:25Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-18T07:31:25Z",
    "niches": [
     "web"
@@ -4659,7 +5450,7 @@
    ],
    "posted": "2026-10-19T02:50:22Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "copy"
@@ -4691,7 +5482,7 @@
    ],
    "posted": "2026-10-19T02:44:12Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-18T02:44:12Z",
    "niches": [
     "ops"
@@ -4721,7 +5512,7 @@
    ],
    "posted": "2026-10-18T16:58:04Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T16:58:04Z",
    "niches": [
     "sales"
@@ -4813,7 +5604,7 @@
    ],
    "posted": "2026-10-18T15:07:41Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T15:07:40Z",
    "niches": [
     "web"
@@ -4843,7 +5634,7 @@
    ],
    "posted": "2026-10-18T15:04:34Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T15:04:33Z",
    "niches": [
     "admin"
@@ -5006,7 +5797,7 @@
    ],
    "posted": "2026-10-18T11:53:56Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T11:53:56Z",
    "niches": [
     "cs"
@@ -5137,7 +5928,7 @@
    ],
    "posted": "2026-10-18T09:50:27Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-14T09:55:07Z",
    "niches": [
     "sales"
@@ -5263,7 +6054,7 @@
    ],
    "posted": "2026-10-18T07:36:53Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T07:36:52Z",
    "niches": [
     "admin"
@@ -5461,7 +6252,7 @@
    ],
    "posted": "2026-10-18T06:29:45Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T06:29:44Z",
    "niches": [
     "ops"
@@ -5555,7 +6346,7 @@
    ],
    "posted": "2026-10-18T04:49:15Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T04:49:15Z",
    "niches": [
     "sales"
@@ -5587,7 +6378,7 @@
    ],
    "posted": "2026-10-18T04:19:18Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T04:19:17Z",
    "niches": [
     "web"
@@ -5617,7 +6408,7 @@
    ],
    "posted": "2026-10-18T02:01:55Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T02:01:54Z",
    "niches": [
     "web"
@@ -5647,7 +6438,7 @@
    ],
    "posted": "2026-10-18T01:26:38Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-17T01:26:36Z",
    "niches": [
     "onboarding"
@@ -5915,7 +6706,7 @@
    ],
    "posted": "2026-10-17T20:11:16Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T20:11:15Z",
    "niches": [
     "web"
@@ -5945,7 +6736,7 @@
    ],
    "posted": "2026-10-17T18:16:38Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T18:16:37Z",
    "niches": [
     "sales"
@@ -5980,7 +6771,7 @@
    ],
    "posted": "2026-10-17T17:50:33Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T17:50:33Z",
    "niches": [
     "web"
@@ -6042,7 +6833,7 @@
    ],
    "posted": "2026-10-17T15:30:38Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T15:30:37Z",
    "niches": [
     "admin"
@@ -6104,7 +6895,7 @@
    ],
    "posted": "2026-10-17T14:38:24Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T14:38:23Z",
    "niches": [
     "web"
@@ -6264,7 +7055,7 @@
    ],
    "posted": "2026-10-17T09:49:02Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T09:49:01Z",
    "niches": [
     "sales"
@@ -6422,7 +7213,7 @@
    ],
    "posted": "2026-10-17T06:28:11Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T06:28:10Z",
    "niches": [
     "sales"
@@ -6494,7 +7285,7 @@
    ],
    "posted": "2026-10-17T01:43:19Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T01:43:18Z",
    "niches": [
     "sales"
@@ -6526,7 +7317,7 @@
    ],
    "posted": "2026-10-17T00:53:07Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T00:53:06Z",
    "niches": [
     "onboarding"
@@ -6588,7 +7379,7 @@
    ],
    "posted": "2026-10-17T00:28:22Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-16T00:28:22Z",
    "niches": [
     "ai"
@@ -6628,7 +7419,7 @@
    ],
    "posted": "2026-10-16T23:50:06Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-22T17:22:24Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-15T23:50:06Z",
    "niches": [
     "ops"
@@ -6701,7 +7492,7 @@
    ],
    "posted": "2026-10-16T21:10:03Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-15T21:10:02Z",
    "niches": [
     "cs"
@@ -6731,7 +7522,7 @@
    ],
    "posted": "2026-10-16T19:30:35Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2027-01-13T16:58:12Z",
    "niches": [
     "video"
@@ -6761,7 +7552,7 @@
    ],
    "posted": "2026-10-16T19:30:35Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2027-01-11T11:02:49Z",
    "niches": [
     "web"
@@ -6823,7 +7614,7 @@
    ],
    "posted": "2026-10-16T16:49:52Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-15T16:49:51Z",
    "niches": [
     "web"
@@ -6832,6 +7623,38 @@
    "countries": [],
    "location": "Worldwide",
    "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "b59f3e7db85f",
+   "title": "Customer Success Manager",
+   "company": "BlueCat Networks",
+   "url": "https://himalayas.app/companies/bluecat-networks/jobs/customer-success-manager-6196382030",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/bluecat-networks/jobs/customer-success-manager-6196382030",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-16T16:49:00Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-15T16:48:58Z",
+   "niches": [
+    "cs"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
+   "type": "Other",
    "salary": "",
    "tags": []
   },
@@ -7143,7 +7966,7 @@
    ],
    "posted": "2026-10-16T07:47:28Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-15T07:47:27Z",
    "niches": [
     "admin"
@@ -7175,7 +7998,7 @@
    ],
    "posted": "2026-10-16T03:34:49Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-15T03:34:49Z",
    "niches": [
     "video"
@@ -7183,6 +8006,38 @@
    "scope": "worldwide",
    "countries": [],
    "location": "Worldwide",
+   "type": "Full Time",
+   "salary": "",
+   "tags": []
+  },
+  {
+   "id": "4dd2bde6082f",
+   "title": "Sales Development Representative (SDR) - Healthcare Staffing",
+   "company": "Pavago",
+   "url": "https://himalayas.app/companies/pavago/jobs/sales-development-representative-sdr-healthcare-staffing",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/pavago/jobs/sales-development-representative-sdr-healthcare-staffing",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-16T03:12:45Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-15T03:12:44Z",
+   "niches": [
+    "sales"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
    "type": "Full Time",
    "salary": "",
    "tags": []
@@ -7270,7 +8125,7 @@
    ],
    "posted": "2026-10-16T00:00:43Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "cs"
@@ -7376,7 +8231,7 @@
    ],
    "posted": "2026-10-15T17:04:24Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-14T17:04:24Z",
    "niches": [
     "video"
@@ -7406,7 +8261,7 @@
    ],
    "posted": "2026-10-15T16:32:57Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-22T17:22:24Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-14T16:32:57Z",
    "niches": [
     "admin"
@@ -7586,7 +8441,7 @@
    ],
    "posted": "2026-10-15T10:05:08Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-14T10:05:06Z",
    "niches": [
     "sales"
@@ -7648,7 +8503,7 @@
    ],
    "posted": "2026-10-15T05:43:22Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-14T05:43:21Z",
    "niches": [
     "admin"
@@ -7678,7 +8533,7 @@
    ],
    "posted": "2026-10-14T18:26:47Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-13T18:26:46Z",
    "niches": [
     "video"
@@ -7708,7 +8563,7 @@
    ],
    "posted": "2026-10-14T16:51:20Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-13T16:51:20Z",
    "niches": [
     "video"
@@ -7738,7 +8593,7 @@
    ],
    "posted": "2026-10-14T16:00:05Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "ops"
@@ -7875,7 +8730,7 @@
    ],
    "posted": "2026-10-14T12:37:00Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-13T12:36:57Z",
    "niches": [
     "onboarding"
@@ -7969,7 +8824,7 @@
    ],
    "posted": "2026-10-14T10:03:36Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-13T10:03:35Z",
    "niches": [
     "video"
@@ -8013,7 +8868,7 @@
    ],
    "posted": "2026-10-14T09:50:55Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-13T09:50:54Z",
    "niches": [
     "cs"
@@ -8043,7 +8898,7 @@
    ],
    "posted": "2026-10-14T09:48:00Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-13T09:47:59Z",
    "niches": [
     "ops"
@@ -8073,7 +8928,7 @@
    ],
    "posted": "2026-10-14T09:16:46Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-13T09:16:46Z",
    "niches": [
     "copy"
@@ -8458,7 +9313,7 @@
    ],
    "posted": "2026-10-13T18:28:27Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-12T18:28:27Z",
    "niches": [
     "copy"
@@ -8492,7 +9347,7 @@
    ],
    "posted": "2026-10-13T16:56:36Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-12T16:56:36Z",
    "niches": [
     "sales"
@@ -8522,7 +9377,7 @@
    ],
    "posted": "2026-10-13T16:51:51Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-12T16:51:51Z",
    "niches": [
     "admin"
@@ -8616,7 +9471,7 @@
    ],
    "posted": "2026-10-13T10:06:11Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -8781,7 +9636,7 @@
    ],
    "posted": "2026-10-13T00:00:06Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "video"
@@ -8946,7 +9801,7 @@
    ],
    "posted": "2026-10-12T21:53:43Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-11T21:53:42Z",
    "niches": [
     "ops"
@@ -9038,7 +9893,7 @@
    ],
    "posted": "2026-10-12T16:57:17Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-11T16:57:17Z",
    "niches": [
     "sales"
@@ -9104,7 +9959,7 @@
    ],
    "posted": "2026-10-12T14:45:01Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-11T14:45:00Z",
    "niches": [
     "cs"
@@ -9267,7 +10122,7 @@
    ],
    "posted": "2026-10-12T10:58:36Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-11T10:58:35Z",
    "niches": [
     "sales"
@@ -9427,7 +10282,7 @@
    ],
    "posted": "2026-10-12T02:49:28Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-11T02:49:26Z",
    "niches": [
     "ops"
@@ -9551,7 +10406,7 @@
    ],
    "posted": "2026-10-11T16:51:49Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-10T16:51:49Z",
    "niches": [
     "sales"
@@ -9581,7 +10436,7 @@
    ],
    "posted": "2026-10-11T16:38:39Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-10T16:38:39Z",
    "niches": [
     "onboarding"
@@ -9643,7 +10498,7 @@
    ],
    "posted": "2026-10-11T11:37:43Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-10T11:37:42Z",
    "niches": [
     "ops"
@@ -9741,7 +10596,7 @@
    ],
    "posted": "2026-10-11T08:29:59Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-10T08:29:59Z",
    "niches": [
     "video"
@@ -9791,7 +10646,7 @@
    ],
    "posted": "2026-10-11T06:43:46Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-10T06:43:45Z",
    "niches": [
     "admin"
@@ -9853,7 +10708,7 @@
    ],
    "posted": "2026-10-11T06:33:22Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-10T06:33:21Z",
    "niches": [
     "cs"
@@ -9883,7 +10738,7 @@
    ],
    "posted": "2026-10-10T23:47:37Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T23:47:36Z",
    "niches": [
     "video"
@@ -9956,7 +10811,7 @@
    ],
    "posted": "2026-10-10T22:59:06Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T22:59:05Z",
    "niches": [
     "onboarding"
@@ -9986,7 +10841,7 @@
    ],
    "posted": "2026-10-10T22:34:57Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T22:34:57Z",
    "niches": [
     "admin"
@@ -10048,7 +10903,7 @@
    ],
    "posted": "2026-10-10T20:44:36Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T20:44:35Z",
    "niches": [
     "admin"
@@ -10276,7 +11131,7 @@
    ],
    "posted": "2026-10-10T11:52:45Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T11:52:45Z",
    "niches": [
     "ops",
@@ -10341,7 +11196,7 @@
    ],
    "posted": "2026-10-10T09:11:43Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T09:11:42Z",
    "niches": [
     "sales"
@@ -10437,7 +11292,7 @@
    ],
    "posted": "2026-10-10T02:34:11Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T02:34:10Z",
    "niches": [
     "admin"
@@ -10467,7 +11322,7 @@
    ],
    "posted": "2026-10-10T01:35:12Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-22T17:22:24Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-09T01:35:11Z",
    "niches": [
     "cs"
@@ -10631,7 +11486,7 @@
    ],
    "posted": "2026-10-10T00:00:17Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "sales"
@@ -10764,7 +11619,7 @@
    ],
    "posted": "2026-10-09T13:54:09Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-08T13:54:09Z",
    "niches": [
     "video"
@@ -10801,7 +11656,7 @@
    ],
    "posted": "2026-10-09T13:09:18Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "web"
@@ -10838,7 +11693,7 @@
    ],
    "posted": "2026-10-09T04:45:12Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-07T01:02:21Z",
    "niches": [
     "video"
@@ -10868,7 +11723,7 @@
    ],
    "posted": "2026-10-09T03:06:51Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-08T03:06:50Z",
    "niches": [
     "admin"
@@ -10966,7 +11821,7 @@
    ],
    "posted": "2026-10-09T00:07:05Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-08T00:07:04Z",
    "niches": [
     "sales"
@@ -11005,7 +11860,7 @@
    ],
    "posted": "2026-10-09T00:05:11Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-08T00:05:11Z",
    "niches": [
     "sales"
@@ -11069,7 +11924,7 @@
    ],
    "posted": "2026-10-08T21:47:32Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "sales"
@@ -11137,7 +11992,7 @@
    ],
    "posted": "2026-10-08T20:34:15Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T20:34:14Z",
    "niches": [
     "video"
@@ -11199,7 +12054,7 @@
    ],
    "posted": "2026-10-08T19:30:37Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2027-01-03T10:36:01Z",
    "niches": [
     "admin"
@@ -11229,7 +12084,7 @@
    ],
    "posted": "2026-10-08T19:30:37Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2027-01-03T10:37:22Z",
    "niches": [
     "onboarding"
@@ -11259,7 +12114,7 @@
    ],
    "posted": "2026-10-08T19:30:37Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2027-01-03T10:34:08Z",
    "niches": [
     "sales"
@@ -11319,7 +12174,7 @@
    ],
    "posted": "2026-10-08T19:30:31Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-07T00:44:01Z",
    "niches": [
     "admin"
@@ -11381,7 +12236,7 @@
    ],
    "posted": "2026-10-08T17:05:25Z",
    "first_seen": "2026-10-23T10:42:52Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T17:05:25Z",
    "niches": [
     "admin"
@@ -11411,7 +12266,7 @@
    ],
    "posted": "2026-10-08T15:34:12Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T15:34:11Z",
    "niches": [
     "sales"
@@ -11535,7 +12390,7 @@
    ],
    "posted": "2026-10-08T12:17:00Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T12:17:00Z",
    "niches": [
     "sales"
@@ -11725,7 +12580,7 @@
    ],
    "posted": "2026-10-08T08:51:19Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T08:51:18Z",
    "niches": [
     "admin"
@@ -11757,7 +12612,7 @@
    ],
    "posted": "2026-10-08T07:57:22Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T07:57:22Z",
    "niches": [
     "sales"
@@ -11884,7 +12739,7 @@
    ],
    "posted": "2026-10-08T05:44:52Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T05:44:52Z",
    "niches": [
     "video"
@@ -11954,7 +12809,7 @@
    ],
    "posted": "2026-10-08T00:31:10Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-07T00:31:09Z",
    "niches": [
     "video"
@@ -12144,7 +12999,7 @@
    ],
    "posted": "2026-10-07T20:27:39Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-06T20:27:39Z",
    "niches": [
     "ops"
@@ -12156,6 +13011,38 @@
    "location": "Argentina",
    "type": "Full Time",
    "salary": "USD 2k-3k / month",
+   "tags": []
+  },
+  {
+   "id": "fc30a576ee21",
+   "title": "Sales Development Rep",
+   "company": "SonicWall",
+   "url": "https://himalayas.app/companies/sonicwall/jobs/sales-development-rep-2084599995",
+   "source": "Himalayas",
+   "source_type": "board",
+   "src_key": null,
+   "verification": "feed",
+   "sources": [
+    {
+     "name": "Himalayas",
+     "url": "https://himalayas.app/companies/sonicwall/jobs/sales-development-rep-2084599995",
+     "type": "board"
+    }
+   ],
+   "posted": "2026-10-07T18:07:54Z",
+   "first_seen": "2026-10-25T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
+   "expires": "2026-12-06T18:07:53Z",
+   "niches": [
+    "sales"
+   ],
+   "scope": "countries",
+   "countries": [
+    "Costa Rica"
+   ],
+   "location": "Costa Rica",
+   "type": "Full Time",
+   "salary": "USD 55k-70k / year",
    "tags": []
   },
   {
@@ -12236,7 +13123,7 @@
    ],
    "posted": "2026-10-07T16:31:45Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-06T16:31:45Z",
    "niches": [
     "web"
@@ -12266,7 +13153,7 @@
    ],
    "posted": "2026-10-07T15:28:31Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-06T15:28:31Z",
    "niches": [
     "sales"
@@ -12360,7 +13247,7 @@
    ],
    "posted": "2026-10-07T03:57:27Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-06T03:57:26Z",
    "niches": [
     "sales"
@@ -12422,7 +13309,7 @@
    ],
    "posted": "2026-10-07T01:36:55Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-06T01:36:54Z",
    "niches": [
     "video"
@@ -12482,7 +13369,7 @@
    ],
    "posted": "2026-10-06T22:27:40Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-05T22:27:40Z",
    "niches": [
     "onboarding"
@@ -12512,7 +13399,7 @@
    ],
    "posted": "2026-10-06T16:45:24Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-05T16:45:24Z",
    "niches": [
     "ops"
@@ -12576,7 +13463,7 @@
    ],
    "posted": "2026-10-06T14:45:21Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-05T14:45:19Z",
    "niches": [
     "video"
@@ -12608,7 +13495,7 @@
    ],
    "posted": "2026-10-06T13:49:00Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-05T13:48:59Z",
    "niches": [
     "sales"
@@ -12668,7 +13555,7 @@
    ],
    "posted": "2026-10-06T07:19:06Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-05T07:19:06Z",
    "niches": [
     "cs"
@@ -12730,7 +13617,7 @@
    ],
    "posted": "2026-10-06T04:14:14Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-05T04:14:13Z",
    "niches": [
     "sales"
@@ -12822,7 +13709,7 @@
    ],
    "posted": "2026-10-06T00:57:57Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-05T00:57:57Z",
    "niches": [
     "admin"
@@ -12854,7 +13741,7 @@
    ],
    "posted": "2026-10-05T23:04:42Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-04T23:04:41Z",
    "niches": [
     "admin"
@@ -12884,7 +13771,7 @@
    ],
    "posted": "2026-10-05T22:06:38Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-04T22:06:37Z",
    "niches": [
     "sales"
@@ -12966,7 +13853,7 @@
    ],
    "posted": "2026-10-05T21:45:24Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-04T21:45:21Z",
    "niches": [
     "video"
@@ -12998,7 +13885,7 @@
    ],
    "posted": "2026-10-05T21:15:12Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-04T21:15:11Z",
    "niches": [
     "admin"
@@ -13048,7 +13935,7 @@
    ],
    "posted": "2026-10-05T20:01:44Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-04T20:01:43Z",
    "niches": [
     "sales"
@@ -13130,7 +14017,7 @@
    ],
    "posted": "2026-10-05T18:05:47Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-04T18:05:46Z",
    "niches": [
     "sales"
@@ -13180,7 +14067,7 @@
    ],
    "posted": "2026-10-05T12:03:42Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-04T12:03:42Z",
    "niches": [
     "admin"
@@ -13340,7 +14227,7 @@
    ],
    "posted": "2026-10-03T20:20:32Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "ops"
@@ -13374,7 +14261,7 @@
    ],
    "posted": "2026-10-03T16:35:49Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-02T16:35:48Z",
    "niches": [
     "admin"
@@ -13404,7 +14291,7 @@
    ],
    "posted": "2026-10-03T16:12:33Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-02T16:12:32Z",
    "niches": [
     "admin"
@@ -13434,7 +14321,7 @@
    ],
    "posted": "2026-10-03T13:39:07Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-02T13:39:06Z",
    "niches": [
     "copy"
@@ -13496,7 +14383,7 @@
    ],
    "posted": "2026-10-03T10:17:17Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-02T10:17:15Z",
    "niches": [
     "admin"
@@ -13526,7 +14413,7 @@
    ],
    "posted": "2026-10-03T09:29:12Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T13:31:07Z",
    "niches": [
     "admin"
@@ -13556,7 +14443,7 @@
    ],
    "posted": "2026-10-03T08:40:03Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-02T08:40:01Z",
    "niches": [
     "ops"
@@ -13618,7 +14505,7 @@
    ],
    "posted": "2026-10-03T03:53:14Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-02T03:53:12Z",
    "niches": [
     "video"
@@ -13712,7 +14599,7 @@
    ],
    "posted": "2026-10-02T23:44:34Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T23:44:34Z",
    "niches": [
     "video"
@@ -13838,7 +14725,7 @@
    ],
    "posted": "2026-10-02T20:48:47Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T20:48:47Z",
    "niches": [
     "admin"
@@ -13868,7 +14755,7 @@
    ],
    "posted": "2026-10-02T20:01:00Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "copy"
@@ -13969,7 +14856,7 @@
    ],
    "posted": "2026-10-02T18:27:49Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T17:27:49Z",
    "niches": [
     "cs"
@@ -13999,7 +14886,7 @@
    ],
    "posted": "2026-10-02T18:25:26Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-10-28T04:00:00Z",
    "niches": [
     "onboarding"
@@ -14029,7 +14916,7 @@
    ],
    "posted": "2026-10-02T18:06:30Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T17:06:30Z",
    "niches": [
     "admin"
@@ -14059,7 +14946,7 @@
    ],
    "posted": "2026-10-02T17:39:45Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-01T17:39:45Z",
    "niches": [
     "web"
@@ -14089,7 +14976,7 @@
    ],
    "posted": "2026-10-02T17:00:24Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T17:00:23Z",
    "niches": [
     "web"
@@ -14119,7 +15006,7 @@
    ],
    "posted": "2026-10-02T16:21:19Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T16:21:18Z",
    "niches": [
     "web"
@@ -14213,7 +15100,7 @@
    ],
    "posted": "2026-10-02T12:18:32Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T12:18:32Z",
    "niches": [
     "admin"
@@ -14245,7 +15132,7 @@
    ],
    "posted": "2026-10-02T12:16:36Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T12:16:36Z",
    "niches": [
     "video"
@@ -14429,7 +15316,7 @@
    ],
    "posted": "2026-10-02T10:00:50Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T10:00:50Z",
    "niches": [
     "video"
@@ -14489,7 +15376,7 @@
    ],
    "posted": "2026-10-02T08:34:49Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T08:34:49Z",
    "niches": [
     "video"
@@ -14551,7 +15438,7 @@
    ],
    "posted": "2026-10-02T07:46:21Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T07:46:20Z",
    "niches": [
     "web"
@@ -14581,7 +15468,7 @@
    ],
    "posted": "2026-10-02T07:43:13Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-21T16:49:48Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T07:43:12Z",
    "niches": [
     "admin"
@@ -14678,7 +15565,7 @@
    ],
    "posted": "2026-10-02T06:36:51Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T06:36:51Z",
    "niches": [
     "cs"
@@ -14704,11 +15591,16 @@
      "name": "Himalayas",
      "url": "https://himalayas.app/companies/superside/jobs/video-editor",
      "type": "board"
+    },
+    {
+     "name": "Jobicy",
+     "url": "https://jobicy.com/jobs/156795-video-editor-2",
+     "type": "board"
     }
    ],
    "posted": "2026-10-02T06:09:02Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-23T10:42:52Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T06:09:01Z",
    "niches": [
     "video"
@@ -14772,7 +15664,7 @@
    ],
    "posted": "2026-10-02T03:30:08Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-12-01T03:30:07Z",
    "niches": [
     "copy"
@@ -14866,7 +15758,7 @@
    ],
    "posted": "2026-10-01T17:54:12Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-30T17:54:11Z",
    "niches": [
     "cs"
@@ -14896,7 +15788,7 @@
    ],
    "posted": "2026-10-01T12:57:17Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-30T12:57:16Z",
    "niches": [
     "video"
@@ -15148,7 +16040,7 @@
    ],
    "posted": "2026-09-30T18:24:42Z",
    "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": null,
    "niches": [
     "sales"
@@ -15243,7 +16135,7 @@
    ],
    "posted": "2026-09-29T19:13:52Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-10-29T19:13:52Z",
    "niches": [
     "web"
@@ -15273,7 +16165,7 @@
    ],
    "posted": "2026-09-29T19:13:52Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-10-29T19:13:52Z",
    "niches": [
     "web"
@@ -15303,7 +16195,7 @@
    ],
    "posted": "2026-09-28T22:12:45Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-10-28T22:12:45Z",
    "niches": [
     "web"
@@ -15333,7 +16225,7 @@
    ],
    "posted": "2026-09-28T03:06:20Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-27T03:06:20Z",
    "niches": [
     "video"
@@ -15373,7 +16265,7 @@
    ],
    "posted": "2026-09-28T01:31:30Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-27T01:31:30Z",
    "niches": [
     "copy"
@@ -15413,7 +16305,7 @@
    ],
    "posted": "2026-09-28T00:24:59Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-27T00:24:59Z",
    "niches": [
     "video"
@@ -15479,7 +16371,7 @@
    ],
    "posted": "2026-09-27T16:01:28Z",
    "first_seen": "2026-10-21T16:49:48Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-26T16:01:27Z",
    "niches": [
     "admin"
@@ -15509,7 +16401,7 @@
    ],
    "posted": "2026-09-27T14:36:36Z",
    "first_seen": "2026-10-24T10:42:22Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-26T14:36:36Z",
    "niches": [
     "ops"
@@ -15610,7 +16502,7 @@
    ],
    "posted": "2026-09-27T09:05:46Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-26T09:05:46Z",
    "niches": [
     "copy"
@@ -15640,7 +16532,7 @@
    ],
    "posted": "2026-09-25T15:14:00Z",
    "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
+   "last_seen": "2026-10-25T10:42:22Z",
    "expires": "2026-11-24T15:13:59Z",
    "niches": [
     "web"
@@ -15650,126 +16542,6 @@
    "location": "Worldwide",
    "type": "Full Time",
    "salary": "",
-   "tags": []
-  },
-  {
-   "id": "50fe18ace8f1",
-   "title": "Sales Development Representative",
-   "company": "Popcorn Growth",
-   "url": "https://himalayas.app/companies/popcorn-growth/jobs/sales-development-representative",
-   "source": "Himalayas",
-   "source_type": "board",
-   "src_key": null,
-   "verification": "feed",
-   "sources": [
-    {
-     "name": "Himalayas",
-     "url": "https://himalayas.app/companies/popcorn-growth/jobs/sales-development-representative",
-     "type": "board"
-    }
-   ],
-   "posted": "2026-09-25T06:07:14Z",
-   "first_seen": "2026-10-21T15:37:33Z",
-   "last_seen": "2026-10-24T10:42:22Z",
-   "expires": "2026-11-24T06:07:13Z",
-   "niches": [
-    "sales"
-   ],
-   "scope": "worldwide",
-   "countries": [],
-   "location": "Worldwide",
-   "type": "Part Time",
-   "salary": "",
-   "tags": []
-  },
-  {
-   "id": "92de01f94193",
-   "title": "WordPress Developer",
-   "company": "Dynime LLC",
-   "url": "https://himalayas.app/companies/dynime-llc/jobs/wordpress-developer",
-   "source": "Himalayas",
-   "source_type": "board",
-   "src_key": null,
-   "verification": "feed",
-   "sources": [
-    {
-     "name": "Himalayas",
-     "url": "https://himalayas.app/companies/dynime-llc/jobs/wordpress-developer",
-     "type": "board"
-    }
-   ],
-   "posted": "2026-09-25T01:31:57Z",
-   "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
-   "expires": "2026-10-25T01:31:57Z",
-   "niches": [
-    "web"
-   ],
-   "scope": "worldwide",
-   "countries": [],
-   "location": "Worldwide",
-   "type": "Full Time",
-   "salary": "",
-   "tags": []
-  },
-  {
-   "id": "433ab8c10735",
-   "title": "Creative Content Creator / Video Editor",
-   "company": "Dynime LLC",
-   "url": "https://himalayas.app/companies/dynime-llc/jobs/creative-content-creator-video-editor",
-   "source": "Himalayas",
-   "source_type": "board",
-   "src_key": null,
-   "verification": "feed",
-   "sources": [
-    {
-     "name": "Himalayas",
-     "url": "https://himalayas.app/companies/dynime-llc/jobs/creative-content-creator-video-editor",
-     "type": "board"
-    }
-   ],
-   "posted": "2026-09-25T01:31:48Z",
-   "first_seen": "2026-10-19T19:01:20Z",
-   "last_seen": "2026-10-24T10:42:22Z",
-   "expires": "2026-10-25T01:31:48Z",
-   "niches": [
-    "video"
-   ],
-   "scope": "worldwide",
-   "countries": [],
-   "location": "Worldwide",
-   "type": "Full Time",
-   "salary": "USD 3k-6k / year",
-   "tags": []
-  },
-  {
-   "id": "bf702dc5eb04",
-   "title": "Sales Development Representative (SDR) / Lead Generation Executive",
-   "company": "Dynime LLC",
-   "url": "https://himalayas.app/companies/dynime-llc/jobs/sales-development-representative-sdr-lead-generation-executive",
-   "source": "Himalayas",
-   "source_type": "board",
-   "src_key": null,
-   "verification": "feed",
-   "sources": [
-    {
-     "name": "Himalayas",
-     "url": "https://himalayas.app/companies/dynime-llc/jobs/sales-development-representative-sdr-lead-generation-executive",
-     "type": "board"
-    }
-   ],
-   "posted": "2026-09-25T01:31:44Z",
-   "first_seen": "2026-10-22T10:44:24Z",
-   "last_seen": "2026-10-23T10:42:52Z",
-   "expires": "2026-10-25T01:31:44Z",
-   "niches": [
-    "sales"
-   ],
-   "scope": "worldwide",
-   "countries": [],
-   "location": "Worldwide",
-   "type": "Full Time",
-   "salary": "USD 4.2k-7.8k / year",
    "tags": []
   }
  ]
