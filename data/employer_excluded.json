@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:42:22Z",
+ "generated_at": "2026-10-26T10:51:18Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -127,6 +127,13 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8213951",
    "location": "Chicago, Atlanta, US-Remote",
    "reason": "Ubicación fuera de LATAM: Chicago, Atlanta, US-Remote"
+  },
+  {
+   "company": "Stripe",
+   "title": "Forward Deployed AI Accelerator, Sales Development",
+   "url": "https://stripe.com/jobs/search?gh_jid=8055930",
+   "location": "Seattle, San Francisco, New York, Chicago, Atlanta, Remote in the US, Canada",
+   "reason": "Ubicación fuera de LATAM: Seattle, San Francisco, New York, Chicago, Atlanta, Remote in the US, "
   },
   {
    "company": "Stripe",
