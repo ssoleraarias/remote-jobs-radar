@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T10:51:18Z",
+ "generated_at": "2026-10-27T10:48:41Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -155,13 +155,6 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8155580",
    "location": "US-Chicago, US-Remote, US-Seattle, US-San Francisco",
    "reason": "Ubicación fuera de LATAM: US-Chicago, US-Remote, US-Seattle, US-San Francisco"
-  },
-  {
-   "company": "Stripe",
-   "title": "Strategy and Operations Lead, Deal Pricing",
-   "url": "https://stripe.com/jobs/search?gh_jid=8044391",
-   "location": "New York City, Washington DC, Remote",
-   "reason": "Ubicación fuera de LATAM: New York City, Washington DC, Remote"
   },
   {
    "company": "Stripe",
