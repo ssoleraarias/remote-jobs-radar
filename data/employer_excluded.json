@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:56:01Z",
+ "generated_at": "2026-10-29T10:57:10Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -116,10 +116,24 @@
   },
   {
    "company": "Stripe",
+   "title": "Campaign Strategy & Operations Manager",
+   "url": "https://stripe.com/jobs/search?gh_jid=7584016",
+   "location": "San Francisco, Seattle, New York, Chicago, Remote in the US",
+   "reason": "Ubicación fuera de LATAM: San Francisco, Seattle, New York, Chicago, Remote in the US"
+  },
+  {
+   "company": "Stripe",
    "title": "Credit Operations Manager",
    "url": "https://stripe.com/jobs/search?gh_jid=8213951",
    "location": "Chicago, Atlanta, US-Remote",
    "reason": "Ubicación fuera de LATAM: Chicago, Atlanta, US-Remote"
+  },
+  {
+   "company": "Stripe",
+   "title": "Customer Success Enablement Business Partner",
+   "url": "https://stripe.com/jobs/search?gh_jid=8293770",
+   "location": "San Francisco; Seattle; Remote",
+   "reason": "Ubicación fuera de LATAM: San Francisco; Seattle; Remote"
   },
   {
    "company": "Stripe",
@@ -141,6 +155,13 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8250483",
    "location": "US Remote; Canada",
    "reason": "Ubicación fuera de LATAM: US Remote; Canada"
+  },
+  {
+   "company": "Stripe",
+   "title": "Marketing Strategy & Operations Business Partner",
+   "url": "https://stripe.com/jobs/search?gh_jid=8329719",
+   "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US ",
+   "reason": "Ubicación fuera de LATAM: San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US "
   },
   {
    "company": "Stripe",
