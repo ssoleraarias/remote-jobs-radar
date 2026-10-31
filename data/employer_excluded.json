@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T10:54:48Z",
+ "generated_at": "2026-10-31T10:45:40Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -13,13 +13,6 @@
    "company": "Calendly",
    "title": "Full Stack Engineer - Trust and Safety",
    "url": "https://job-boards.greenhouse.io/calendly/jobs/8895903002",
-   "location": "Remote - US",
-   "reason": "Ubicación fuera de LATAM: Remote - US"
-  },
-  {
-   "company": "Calendly",
-   "title": "Senior Full Stack Engineer, AI Scheduling",
-   "url": "https://job-boards.greenhouse.io/calendly/jobs/8464846002",
    "location": "Remote - US",
    "reason": "Ubicación fuera de LATAM: Remote - US"
   },
@@ -83,13 +76,6 @@
    "company": "ClickUp",
    "title": "Senior Technical Account Manager - Customer Success (AMER)",
    "url": "https://jobs.ashbyhq.com/clickup/f0763501-cbdd-498d-91a3-c88e4e3b93a0",
-   "location": "United States; United States",
-   "reason": "Ubicación fuera de LATAM: United States; United States"
-  },
-  {
-   "company": "Help Scout",
-   "title": "Business Development Representative",
-   "url": "https://jobs.ashbyhq.com/helpscout/39814760-0b27-4c07-b06b-5438fcff5ede",
    "location": "United States; United States",
    "reason": "Ubicación fuera de LATAM: United States; United States"
   },
@@ -162,6 +148,20 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8329719",
    "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US ",
    "reason": "Ubicación fuera de LATAM: San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US "
+  },
+  {
+   "company": "Stripe",
+   "title": "Startup Products Strategy & Operations, Insights & Analytics",
+   "url": "https://stripe.com/jobs/search?gh_jid=8234710",
+   "location": "Remote US",
+   "reason": "Ubicación fuera de LATAM: Remote US"
+  },
+  {
+   "company": "Stripe",
+   "title": "Startup Products Strategy & Operations, Product Strategy",
+   "url": "https://stripe.com/jobs/search?gh_jid=8248415",
+   "location": "US-Remote",
+   "reason": "Ubicación fuera de LATAM: US-Remote"
   },
   {
    "company": "Stripe",
