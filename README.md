@@ -1,6 +1,6 @@
 # Radar de trabajo remoto para LATAM
 
-Una web que junta vacantes remotas abiertas a Latinoamérica en 9 áreas: video editing, copywriting, desarrollo web, automatización con IA, operaciones, customer success, onboarding de producto, inside sales y administración. Se actualiza sola todos los días.
+Una web que junta vacantes remotas abiertas a Latinoamérica en 11 áreas: video editing, copywriting, desarrollo web (web, CMS y diseño web), automatización con IA, operaciones, customer success, onboarding de producto, inside sales, administración, marketing y liderazgo de marketing. Se actualiza sola todos los días.
 
 ## Cómo funciona
 
@@ -41,7 +41,9 @@ Si el paso 5 falla con un error de permisos al hacer push: **Settings → Action
 
 ## Cómo se decide qué vacantes se muestran
 
-- **Área:** coincidencia de frases en el título. Las etiquetas de los feeds se ignoran porque meten ruido (un Software Engineer aparecía como copywriting).
+- **Área:** coincidencia de frases en el título. Marketing incluye Marketing Manager y variantes (content, growth, brand…), pero excluye performance, demand gen y product marketing. Liderazgo de marketing incluye Head of Marketing, Marketing Director, CMO y Fractional CMO.
+- **Nivel:** en todas las áreas se descartan títulos con intern, internship, junior, trainee, entry level, apprentice y equivalentes en español (lista `exclude_levels` en `config/keywords.json`). Associate y Coordinator se dejan.
+- **Tipo de contrato:** el filtro de la página lo deduce del texto de cada fuente. Fractional y part time van a Medio tiempo; contractor, freelance, temporary y consultant a Contrato o freelance; full time a Tiempo completo. Si la fuente no dice, la vacante aparece solo con "Todos". Las etiquetas de los feeds se ignoran porque meten ruido (un Software Engineer aparecía como copywriting).
 - **Región en las bolsas (feeds):**
   - Se lee el texto de ubicación que publica cada fuente.
   - Ahí se distingue "Todo el mundo", "Toda LATAM" o países concretos.
@@ -52,7 +54,7 @@ Si el paso 5 falla con un error de permisos al hacer push: **Settings → Action
   2. La ubicación y el código de país no pueden ser de EE. UU., Canadá, Europa u otra región fuera de LATAM.
   3. La descripción no puede exigir vivir en EE. UU. ("US based", "continental US", "authorized to work in the US", "must be located in…") ni en otro país fuera de LATAM.
   - Si pasa los tres pero no dice dónde sí se puede vivir, queda como "región sin indicar" (oculta por defecto). Solo se publica como LATAM, mundo o país cuando la ubicación o la descripción lo dicen.
-- **Vigencia:** en las empresas, una vacante se quita en cuanto desaparece de su tablero, porque el tablero lista todo lo abierto. En las bolsas se quita si lleva 10 días sin aparecer en su fuente, si pasó su fecha de vencimiento (cuando el feed la da) o si tiene más de 45 días.
+- **Vigencia:** en las empresas, una vacante se quita en cuanto desaparece de su tablero, porque el tablero lista todo lo abierto. En las bolsas se quita si lleva 10 días sin aparecer en su fuente, si pasó su fecha de vencimiento (cuando el feed la da) o si tiene más de 30 días.
 
 ## Límites conocidos
 
@@ -61,7 +63,7 @@ Si el paso 5 falla con un error de permisos al hacer push: **Settings → Action
 - **Himalayas aporta la mayoría de las vacantes** porque permite filtrar por país. Una vacante que solo acepta a un país (por ejemplo, solo Perú) aparece cuando le toca el turno a ese país, hasta 5 días después de publicada. Las demás fuentes entregan pocas: la API gratuita de Remotive devuelve solo 12 vacantes y RemoteOK, unas 100 recientes.
 - **Automatización con IA tiene pocas vacantes** con las frases actuales. Conviene afinar esa lista con ejemplos reales.
 - **Las áreas de operaciones, customer success, onboarding, inside sales y administración** buscan por frases de título (`operations manager`, `customer success`, `onboarding`, `sdr`, `executive assistant`, etc.). Un título poco convencional no aparecerá hasta agregar su frase en `config/keywords.json`.
-- **Himalayas hace 17 búsquedas por país** (4 países por día), así que cada corrida tarda unos minutos. Si recibes un error 429, baja `himalayas_countries_per_run` a 2.
+- **Himalayas hace 21 búsquedas por país** (4 países por día), así que cada corrida tarda unos minutos. Si recibes un error 429, baja `himalayas_countries_per_run` a 2.
 
 - **La lectura de la descripción es por frases fijas.** Puede descartar una vacante buena (por ejemplo, un beneficio "dentro de EE. UU." en la misma descripción) y puede dejar pasar una que exija EE. UU. con otras palabras. El archivo de descartadas sirve para detectar lo primero.
 - **Solo funciona con empresas en Greenhouse, Lever, Ashby o SmartRecruiters.** Las que usan otro sistema (Workday o su propio sitio) hay que revisarlas a mano.

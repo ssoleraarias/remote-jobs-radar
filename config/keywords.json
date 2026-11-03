@@ -54,16 +54,16 @@
         "web designer",
         "web development",
         "web engineer",
-        "frontend",
-        "front end",
-        "full stack",
-        "fullstack",
         "wordpress",
         "webflow",
         "shopify",
-        "react developer",
-        "javascript developer",
-        "desarrollador web"
+        "elementor",
+        "squarespace",
+        "wix",
+        "cms developer",
+        "landing page",
+        "desarrollador web",
+        "disenador web"
       ],
       "exclude": [
         "attorney",
@@ -230,6 +230,40 @@
         "gerente administrativo"
       ],
       "exclude": []
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing",
+      "include": [
+        "marketing manager",
+        "gerente de marketing"
+      ],
+      "exclude": [
+        "performance marketing",
+        "demand generation",
+        "demand gen",
+        "product marketing",
+        "assistant"
+      ]
+    },
+    {
+      "id": "leadership",
+      "label": "Liderazgo de marketing",
+      "include": [
+        "head of marketing",
+        "marketing director",
+        "director of marketing",
+        "fractional cmo",
+        "cmo",
+        "chief marketing officer",
+        "director de marketing",
+        "jefe de marketing"
+      ],
+      "exclude": [
+        "assistant",
+        "chief medical",
+        "medical officer"
+      ]
     }
   ],
   "himalayas_queries": [
@@ -249,7 +283,11 @@
     "sales development representative",
     "office manager",
     "executive assistant",
-    "administrative"
+    "administrative",
+    "marketing manager",
+    "head of marketing",
+    "marketing director",
+    "fractional cmo"
   ],
   "himalayas_countries": [
     "AR",
@@ -275,5 +313,19 @@
   "himalayas_pages_per_query": 2,
   "max_age_days": 30,
   "stale_after_days": 10,
-  "himalayas_countries_per_run": 4
+  "himalayas_countries_per_run": 4,
+  "exclude_levels": [
+    "intern",
+    "internship",
+    "junior",
+    "jr",
+    "trainee",
+    "entry level",
+    "apprentice",
+    "apprenticeship",
+    "pasante",
+    "pasantia",
+    "practicante",
+    "becario"
+  ]
 }

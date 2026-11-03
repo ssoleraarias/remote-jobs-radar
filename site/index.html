@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Radar de trabajo remoto para LATAM</title>
-<meta name="description" content="Vacantes remotas de creatividad, tecnología, operaciones, clientes, ventas y administración abiertas a Latinoamérica.">
+<meta name="description" content="Vacantes remotas de creatividad, tecnología, operaciones, clientes, ventas, administración y marketing abiertas a Latinoamérica.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -27,6 +27,8 @@
     --onboarding: #0369A1;
     --sales: #A16207;
     --admin: #475569;
+    --marketing: #0E7490;
+    --leadership: #1E293B;
     --display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
     --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
     color-scheme: light;
@@ -156,6 +158,8 @@
   .area[data-area="onboarding"] { --c: var(--onboarding); }
   .area[data-area="sales"] { --c: var(--sales); }
   .area[data-area="admin"] { --c: var(--admin); }
+  .area[data-area="marketing"] { --c: var(--marketing); }
+  .area[data-area="leadership"] { --c: var(--leadership); }
   .where { font-size: .9375rem; }
   .where small { display: block; color: var(--muted); font-size: .8125rem; }
   .src { font-size: .875rem; }
@@ -186,7 +190,7 @@
 <div class="wrap">
   <header class="top">
     <h1>Radar de trabajo remoto para LATAM</h1>
-    <p class="lede">Vacantes de video editing, copywriting, desarrollo web, automatización con IA, operaciones, customer success, onboarding, inside sales y administración abiertas a quienes viven en Latinoamérica. Se actualiza todos los días.</p>
+    <p class="lede">Vacantes remotas abiertas a quienes viven en Latinoamérica, en creatividad, tecnología, operaciones, clientes, ventas, administración y marketing. Se actualiza todos los días.</p>
     <p class="updated" id="updated" aria-live="polite"></p>
   </header>
 
@@ -200,6 +204,14 @@
     <div class="controls">
       <label class="field">Vivo en
         <select id="country"></select>
+      </label>
+      <label class="field">Tipo de contrato
+        <select id="jobtype">
+          <option value="">Todos</option>
+          <option value="full">Tiempo completo</option>
+          <option value="part">Medio tiempo</option>
+          <option value="contract">Contrato o freelance</option>
+        </select>
       </label>
       <label class="field">Buscar en el título
         <input type="search" id="q" placeholder="Ej: shopify, reels, n8n" autocomplete="off">
@@ -234,7 +246,7 @@
   };
   var DAYS_IN_STRIP = 14;
 
-  var state = { areas: [], country: "", q: "", unknown: false, day: "" };
+  var state = { areas: [], country: "", q: "", unknown: false, day: "", type: "" };
   var data = null;
 
   var $ = function (id) { return document.getElementById(id); };
@@ -265,6 +277,7 @@
     state.q = p.get("q") || "";
     state.unknown = p.get("sin") === "1";
     state.day = p.get("dia") || "";
+    state.type = ["full", "part", "contract"].indexOf(p.get("tipo")) !== -1 ? p.get("tipo") : "";
   }
   function writeUrl() {
     var p = new URLSearchParams();
@@ -273,8 +286,21 @@
     if (state.q) p.set("q", state.q);
     if (state.unknown) p.set("sin", "1");
     if (state.day) p.set("dia", state.day);
+    if (state.type) p.set("tipo", state.type);
     var qs = p.toString();
     history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  }
+
+  /* ---- tipo de contrato ----
+     Cada fuente lo escribe distinto ("Full Time", "FullTime", "contractor"...), asi que se
+     normaliza aqui. Medio tiempo gana sobre contrato y contrato sobre tiempo completo.
+     Sin dato o voluntariado: queda en "Todos" y no sale al filtrar. */
+  function workType(j) {
+    var s = (String(j.type || "") + " " + String(j.title || "")).toLowerCase();
+    if (/part[- ]?time|fractional/.test(s)) return "part";
+    if (/contract|freelance|temporary|consult/.test(s)) return "contract";
+    if (/full[- ]?time/.test(s)) return "full";
+    return "";
   }
 
   /* ---- filtros ---- */
@@ -284,6 +310,7 @@
     return state.unknown; // unknown
   }
   function passesBase(j) {
+    if (state.type && workType(j) !== state.type) return false;
     if (state.areas.length && !j.niches.some(function (n) { return state.areas.indexOf(n) !== -1; })) return false;
     if (state.q) {
       var hay = fold(j.title + " " + j.company);
@@ -425,8 +452,8 @@
       empty.appendChild(el("p", { text: "Prueba quitar el filtro de día, cambiar de país o buscar otra palabra." }));
       var reset = el("button", { type: "button", "class": "link-btn", text: "Limpiar todos los filtros" });
       reset.addEventListener("click", function () {
-        state = { areas: [], country: "", q: "", unknown: false, day: "" };
-        $("q").value = ""; $("unknown").checked = false; update(true);
+        state = { areas: [], country: "", q: "", unknown: false, day: "", type: "" };
+        $("q").value = ""; $("unknown").checked = false; $("jobtype").value = ""; update(true);
       });
       empty.appendChild(reset);
       box.appendChild(empty);
@@ -502,6 +529,8 @@
     renderCountries();
     $("q").value = state.q;
     $("unknown").checked = state.unknown;
+    $("jobtype").value = state.type;
+    $("jobtype").addEventListener("change", function (e) { state.type = e.target.value; update(); });
     $("country").addEventListener("change", function (e) { state.country = e.target.value; update(); });
     $("unknown").addEventListener("change", function (e) { state.unknown = e.target.checked; update(); });
     var t;

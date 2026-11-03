@@ -234,11 +234,14 @@ def load_config():
     for n in cfg["niches"]:
         n["_inc"] = compile_phrases(n["include"])
         n["_exc"] = compile_phrases(n.get("exclude", []))
+    cfg["_levels"] = compile_phrases(cfg.get("exclude_levels", []))
     return cfg
 
 
 def match_niches(cfg, title, extras):
     title_n = norm(title)
+    if any(rx.search(title_n) for rx in cfg.get("_levels", [])):
+        return []  # pasantias, junior, trainee: no se publican en ningun area
     text_n = norm(f"{title} {' '.join(extras)}")
     found = []
     for n in cfg["niches"]:
