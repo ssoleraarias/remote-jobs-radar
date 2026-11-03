@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T11:09:04Z",
+ "generated_at": "2026-11-03T01:10:02Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -10,67 +10,11 @@
    "reason": "Ubicación fuera de LATAM: Remote, United States"
   },
   {
-   "company": "Calendly",
-   "title": "Full Stack Engineer - Trust and Safety",
-   "url": "https://job-boards.greenhouse.io/calendly/jobs/8895903002",
-   "location": "Remote - US",
-   "reason": "Ubicación fuera de LATAM: Remote - US"
-  },
-  {
-   "company": "Calendly",
-   "title": "Senior Full Stack Engineer, Website Development",
-   "url": "https://job-boards.greenhouse.io/calendly/jobs/8846049002",
-   "location": "Remote - US",
-   "reason": "Ubicación fuera de LATAM: Remote - US"
-  },
-  {
-   "company": "ClickUp",
-   "title": "Engineering Manager (Frontend)",
-   "url": "https://jobs.ashbyhq.com/clickup/c252ee33-b277-474e-963d-7fb64004c8a0",
-   "location": "United States; United States",
-   "reason": "Ubicación fuera de LATAM: United States; United States"
-  },
-  {
    "company": "ClickUp",
    "title": "Staff Social Strategy & Operations Manager",
    "url": "https://jobs.ashbyhq.com/clickup/178b3259-238a-4729-93f4-76d7d4277b32",
    "location": "United States; United States",
    "reason": "Ubicación fuera de LATAM: United States; United States"
-  },
-  {
-   "company": "ClickUp",
-   "title": "Senior Frontend Engineer",
-   "url": "https://jobs.ashbyhq.com/clickup/941d0542-fe1c-45fb-b0d7-1865050f1e7e",
-   "location": "Poland; Canada; Bulgaria; Ukraine; Hungary; Czechia; Ireland; Poland",
-   "reason": "Ubicación fuera de LATAM: Poland; Canada; Bulgaria; Ukraine; Hungary; Czechia; Ireland; Poland"
-  },
-  {
-   "company": "ClickUp",
-   "title": "Staff Frontend Engineer",
-   "url": "https://jobs.ashbyhq.com/clickup/d29aff4d-d811-486d-ac04-5e0f4e3d7e82",
-   "location": "Poland; Canada; Bulgaria; Ukraine; Hungary; Czechia; Ireland; Poland",
-   "reason": "Ubicación fuera de LATAM: Poland; Canada; Bulgaria; Ukraine; Hungary; Czechia; Ireland; Poland"
-  },
-  {
-   "company": "ClickUp",
-   "title": "Principal Frontend Engineer",
-   "url": "https://jobs.ashbyhq.com/clickup/9fcbf37a-9860-4013-b98c-4c2b62cd5cbf",
-   "location": "United States; Remote; United States",
-   "reason": "Ubicación fuera de LATAM: United States; Remote; United States"
-  },
-  {
-   "company": "ClickUp",
-   "title": "Staff Frontend Engineer",
-   "url": "https://jobs.ashbyhq.com/clickup/b6c0a31b-83b6-43f6-8e50-0d91dda7c767",
-   "location": "United States; Remote; United States",
-   "reason": "Ubicación fuera de LATAM: United States; Remote; United States"
-  },
-  {
-   "company": "ClickUp",
-   "title": "Senior Frontend Engineer",
-   "url": "https://jobs.ashbyhq.com/clickup/0cb4e985-a3fa-4b96-8441-3471bcdeb5af",
-   "location": "United States; Remote; United States",
-   "reason": "Ubicación fuera de LATAM: United States; Remote; United States"
   },
   {
    "company": "ClickUp",
@@ -92,6 +36,13 @@
    "url": "https://job-boards.greenhouse.io/pandadoc/jobs/8204905",
    "location": "Remote (USA)",
    "reason": "Ubicación fuera de LATAM: Remote (USA)"
+  },
+  {
+   "company": "Stripe",
+   "title": "AEO and GEO Marketing Manager",
+   "url": "https://stripe.com/jobs/search?gh_jid=7844214",
+   "location": "Remote in the US",
+   "reason": "Ubicación fuera de LATAM: Remote in the US"
   },
   {
    "company": "Stripe",
@@ -130,6 +81,13 @@
   },
   {
    "company": "Stripe",
+   "title": "Lifecycle Marketing Manager, Capital",
+   "url": "https://stripe.com/jobs/search?gh_jid=8082149",
+   "location": "Remote, US",
+   "reason": "Ubicación fuera de LATAM: Remote, US"
+  },
+  {
+   "company": "Stripe",
    "title": "Marketing Operations Manager, AMER Events",
    "url": "https://stripe.com/jobs/search?gh_jid=8250483",
    "location": "US Remote; Canada",
@@ -148,6 +106,13 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8329719",
    "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US ",
    "reason": "Ubicación fuera de LATAM: San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US "
+  },
+  {
+   "company": "Stripe",
+   "title": "Partner Marketing Manager, Online & Regional Events",
+   "url": "https://stripe.com/jobs/search?gh_jid=8175661",
+   "location": "Seattle or San Francisco or Chicago or New York City or US-Remote",
+   "reason": "Ubicación fuera de LATAM: Seattle or San Francisco or Chicago or New York City or US-Remote"
   },
   {
    "company": "Stripe",
