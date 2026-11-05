@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:58:59Z",
+ "generated_at": "2026-11-05T18:01:40Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -57,13 +57,6 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8213951",
    "location": "Chicago, Atlanta, US-Remote",
    "reason": "Ubicación fuera de LATAM: Chicago, Atlanta, US-Remote"
-  },
-  {
-   "company": "Stripe",
-   "title": "Customer Success Enablement Business Partner",
-   "url": "https://stripe.com/jobs/search?gh_jid=8293770",
-   "location": "San Francisco; Seattle; Remote",
-   "reason": "Ubicación fuera de LATAM: San Francisco; Seattle; Remote"
   },
   {
    "company": "Stripe",
