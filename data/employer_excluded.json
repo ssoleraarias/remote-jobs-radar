@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:01:40Z",
+ "generated_at": "2026-11-06T17:29:58Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -43,6 +43,13 @@
    "url": "https://stripe.com/jobs/search?gh_jid=7844214",
    "location": "Remote in the US",
    "reason": "Ubicación fuera de LATAM: Remote in the US"
+  },
+  {
+   "company": "Stripe",
+   "title": "AMER Data Analyst - Sales Strategy and Operations",
+   "url": "https://stripe.com/jobs/search?gh_jid=8354566",
+   "location": "Chicago, US Remote, SF, NYC, Seattle",
+   "reason": "Ubicación fuera de LATAM: Chicago, US Remote, SF, NYC, Seattle"
   },
   {
    "company": "Stripe",
