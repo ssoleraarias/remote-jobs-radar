@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T20:44:13Z",
+ "generated_at": "2026-11-10T17:50:48Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -120,6 +120,13 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8189015",
    "location": "Chicago, US-Remote",
    "reason": "Ubicación fuera de LATAM: Chicago, US-Remote"
+  },
+  {
+   "company": "Stripe",
+   "title": "Product Operations Manager",
+   "url": "https://stripe.com/jobs/search?gh_jid=8315943",
+   "location": "US Remote",
+   "reason": "Ubicación fuera de LATAM: US Remote"
   },
   {
    "company": "Stripe",
