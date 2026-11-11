@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-10T17:50:48Z",
+ "generated_at": "2026-11-11T17:53:50Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
+  {
+   "company": "Airtable",
+   "title": "Customer Success Manager",
+   "url": "https://job-boards.greenhouse.io/airtable/jobs/8936208002",
+   "location": "Remote - US",
+   "reason": "Ubicación fuera de LATAM: Remote - US"
+  },
   {
    "company": "Apollo",
    "title": "Head of Partner Programs, Strategy and Operations",
    "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
    "location": "Remote, United States",
    "reason": "Ubicación fuera de LATAM: Remote, United States"
-  },
-  {
-   "company": "ClickUp",
-   "title": "Staff Social Strategy & Operations Manager",
-   "url": "https://jobs.ashbyhq.com/clickup/178b3259-238a-4729-93f4-76d7d4277b32",
-   "location": "United States; United States",
-   "reason": "Ubicación fuera de LATAM: United States; United States"
   },
   {
    "company": "ClickUp",
