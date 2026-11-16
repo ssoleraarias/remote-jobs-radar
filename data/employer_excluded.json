@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T17:11:41Z",
+ "generated_at": "2026-11-16T20:29:33Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -20,6 +20,13 @@
    "company": "ClickUp",
    "title": "Senior Technical Account Manager - Customer Success (AMER)",
    "url": "https://jobs.ashbyhq.com/clickup/f0763501-cbdd-498d-91a3-c88e4e3b93a0",
+   "location": "United States; United States",
+   "reason": "Ubicación fuera de LATAM: United States; United States"
+  },
+  {
+   "company": "Help Scout",
+   "title": "Business Development Representative",
+   "url": "https://jobs.ashbyhq.com/helpscout/39814760-0b27-4c07-b06b-5438fcff5ede",
    "location": "United States; United States",
    "reason": "Ubicación fuera de LATAM: United States; United States"
   },
@@ -92,6 +99,13 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8329719",
    "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US ",
    "reason": "Ubicación fuera de LATAM: San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US "
+  },
+  {
+   "company": "Stripe",
+   "title": "Partner Marketing Manager, Online & Regional Events",
+   "url": "https://stripe.com/jobs/search?gh_jid=8175661",
+   "location": "Seattle or San Francisco or Chicago or New York City or US-Remote",
+   "reason": "Ubicación fuera de LATAM: Seattle or San Francisco or Chicago or New York City or US-Remote"
   },
   {
    "company": "Stripe",
