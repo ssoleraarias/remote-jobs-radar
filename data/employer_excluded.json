@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:51:52Z",
+ "generated_at": "2026-11-19T18:59:01Z",
  "nota": "Vacantes remotas en tus areas que NO se publicaron y por que.",
  "excluded": [
   {
@@ -60,13 +60,6 @@
   },
   {
    "company": "Stripe",
-   "title": "Forward Deployed AI Accelerator, Sales Development",
-   "url": "https://stripe.com/jobs/search?gh_jid=8055930",
-   "location": "Seattle, San Francisco, New York, Chicago, Atlanta, Remote in the US, Canada",
-   "reason": "Ubicación fuera de LATAM: Seattle, San Francisco, New York, Chicago, Atlanta, Remote in the US, "
-  },
-  {
-   "company": "Stripe",
    "title": "Fraud Operations Manager",
    "url": "https://stripe.com/jobs/search?gh_jid=8175832",
    "location": "US-Remote",
@@ -99,6 +92,13 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8329719",
    "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US ",
    "reason": "Ubicación fuera de LATAM: San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US "
+  },
+  {
+   "company": "Stripe",
+   "title": "Marketing Strategy & Operations Lead, Global Demand, Campaigns, Field Marketing",
+   "url": "https://stripe.com/jobs/search?gh_jid=8384782",
+   "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US",
+   "reason": "Ubicación fuera de LATAM: San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US"
   },
   {
    "company": "Stripe",
